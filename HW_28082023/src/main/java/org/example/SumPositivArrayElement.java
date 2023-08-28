@@ -2,7 +2,7 @@ package org.example;
 
 public class SumPositivArrayElement {
   public static void myarray(){
-    int[] array = { 5, -2, 9, -7, 3, 1, 0, 8 };
+    int[] array = { -5, 3, 9, 6, 5, 20, 0, -8 };
     double sum = 0;
     int count =0;
 
