@@ -6,6 +6,7 @@ public class SumPositivArrayElement {
     double sum = 0;
     int count = 0;
 
+
     for (int i = 0; i < array.length; i++) {
       if (array[i] > 0) {
         sum = sum + array[i];
@@ -13,7 +14,8 @@ public class SumPositivArrayElement {
       }
     }
     if (count > 0) {
-      System.out.println("Cреднее арифметическое положительных элементов массива :" + count);
+      double averSum = sum / count;
+      System.out.println("Cреднее арифметическое положительных элементов массива :" + averSum);
     } else {
       System.out.println("В этом массиве нет положительных элементов.");
     }
