@@ -1,4 +1,5 @@
 package org.example;
+
 /*Описание задания.
 
         1. уровень сложности: Найти среднее арифметическое положительных элементов массива.
@@ -8,5 +9,6 @@ public class Main {
   public static void main(String[] args) {
     SumPositivArrayElement.myarray();// 1
     SumOfAllElemDiv3notSimDiv5.myarray();// 2
+    SumOfConsElem.myarray();
   }
 }
