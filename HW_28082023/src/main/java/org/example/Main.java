@@ -9,6 +9,6 @@ public class Main {
   public static void main(String[] args) {
     SumPositivArrayElement.myarray();// 1
     SumOfAllElemDiv3notSimDiv5.myarray();// 2
-    SumOfConsElem.myarray();
+    SumOfConsElem.myarray(); //3
   }
 }
