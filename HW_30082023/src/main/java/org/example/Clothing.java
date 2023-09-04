@@ -3,7 +3,7 @@ package org.example;
   Дополнительное поле size (размер одежды из Size).
   Конструктор для инициализации полей.*/
 public class Clothing extends Product {
-  Size size;
+  private Size size;
 
   public Clothing(int id, String name, ProductCategory category, double price, Currency currency, Size size) {
     super(id, name, category, price, currency);

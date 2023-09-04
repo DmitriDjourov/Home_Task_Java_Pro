@@ -11,11 +11,11 @@ public class Product {
   currency (валюта цены из Currency)
   Конструктор для инициализации полей.*/
 
-  int id;
-  String name;
-  ProductCategory category;
-  double price;
-  Currency currency;
+  private int id;
+  private String name;
+  private ProductCategory category;
+  private double price;
+  private Currency currency;
 
   public Product(int id, String name, ProductCategory category, double price, Currency currency) {
     this.id = id;
