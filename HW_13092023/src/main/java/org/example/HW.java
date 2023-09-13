@@ -62,5 +62,21 @@ public class HW {
         myClasses.add(myClass3);
 
         System.out.println(myClasses);
+
+    }
+
+    //        Уровень сложности 6 из 10:
+
+    // 6.1 Перебрать ArrayList<Integer> и найти наименьший элемент.
+    public int getMinElem(List<Integer> list) {
+        int minElem = Integer.MAX_VALUE;
+
+        for (int i = 0; i < list.size(); i++) {
+            if (list.get(i) < minElem) {
+                minElem = list.get(i);
+            }
+        }
+        return minElem;
     }
 }
+
