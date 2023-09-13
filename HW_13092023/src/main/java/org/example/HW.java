@@ -1,6 +1,7 @@
 package org.example;
 
 import java.util.ArrayList;
+import java.util.LinkedList;
 import java.util.List;
 
 public class HW {
@@ -50,7 +51,7 @@ public class HW {
         System.out.println("5.4 Самая длинная строка : " + list.get(longestElemIndex));
     }
 
-    // 5.6 Создать ArrayList с объектами вашего собственного класса и вывести их на экран.
+    // 5.5 Создать ArrayList с объектами вашего собственного класса и вывести их на экран.
     public void doMyClassList() {
         MyClass myClass1 = new MyClass("Nik", "Zadov", 19);
         MyClass myClass2 = new MyClass("Anna", "Kohava", 29);
@@ -61,8 +62,9 @@ public class HW {
         myClasses.add(myClass2);
         myClasses.add(myClass3);
 
-        System.out.println(myClasses);
-
+        for (MyClass myClass : myClasses) {
+            System.out.println(myClass);
+        }
     }
 
     //        Уровень сложности 6 из 10:
@@ -78,5 +80,81 @@ public class HW {
         }
         return minElem;
     }
+
+    // 6.2 Перебрать LinkedList<Integer> и найти наибольший элемент.
+    public int getMaxElem(List<Integer> list) {
+        int maxElem = Integer.MIN_VALUE;
+
+        for (int i = 0; i < list.size(); i++) {
+            if (list.get(i) > maxElem) {
+                maxElem = list.get(i);
+            }
+        }
+        return maxElem;
+    }
+
+    // 6.3 Перебрать ArrayList<String> и найти количество элементов, начинающихся с определенной буквы.
+    public void doArrayListStringStartC(List<String> list) {
+        char startletter = 'C';
+        int counter = 0;
+        for (String str : list) {
+            char firstLetter = str.toUpperCase().charAt(0);
+            if (firstLetter == Character.toUpperCase(startletter)) {
+                counter++;
+            }
+        }
+        System.out.println("6.3 Количество элементов начинающихся с буквы С : " + counter);
+    }
+
+    // 6.4 Перебрать LinkedList<String> и найти первое вхождение определенной строки.
+    public void doAnotherFirstLine(List<String> list) {
+        String targetString = "Dima";
+        int index = -1; //flag
+
+        for (int i = 0; i < list.size(); i++) {
+            String currentString = list.get(i);
+            if (currentString.equals(targetString)) {
+                index = i;
+                break;
+            }
+        }
+        if (index != -1) {
+            System.out.println("6.4 Первое вхождение строки " + targetString + " найдено на индексе " + index);
+        } else {
+            System.out.println("6.4 Строка " + targetString + " не найдена. ");
+        }
+    }
+
+    // 6.5 Создать LinkedList с объектами вашего собственного класса и удалить все элементы,
+    //     удовлетворяющие определенному условию.
+    public void doMyClassListDelElem() {
+        MyClass myClass1 = new MyClass("Nik", "Zadov", 19);
+        MyClass myClass2 = new MyClass("Anna", "Kohava", 29);
+        MyClass myClass3 = new MyClass("Vasia", "Pupkin", 39);
+
+        LinkedList<MyClass> myClasses = new LinkedList<>();
+        myClasses.add(myClass1);
+        myClasses.add(myClass2);
+        myClasses.add(myClass3);
+        // Условие для удаления: возраст старше 30 лет
+        int ageThreshold = 30;
+
+        System.out.println("6.5 Мой массив до удаления, старого пердуна :");
+        for (MyClass myClass : myClasses) {
+            System.out.println(myClass);
+        }
+
+        for (int i = 0; i < myClasses.size(); i++) {
+            if (myClasses.get(i).getAge() > ageThreshold) {
+                myClasses.remove(i);
+                i--;
+            }
+        }
+        System.out.println("Мой массив до удаления, старого пердуна :");
+        for (MyClass myClass : myClasses) {
+            System.out.println(myClass);
+        }
+    }
 }
+
 
