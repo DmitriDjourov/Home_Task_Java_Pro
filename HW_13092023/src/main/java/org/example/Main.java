@@ -7,7 +7,7 @@ import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
-        HW hw = new HW();
+        Hw hw = new Hw();
 
         //Уровень сложности 5 из 10
 
@@ -96,5 +96,18 @@ public class Main {
         // Уровень сложности 8 из 10:
 
         // 8.1 Перебрать ArrayList<Integer> и найти сумму квадратов всех элементов.
+        hw.doSumSumSquaresAllNumbers();
+
+        // 8.2 Перебрать LinkedList<Integer> и вычислить произведение всех элементов.
+        hw.doProductAllNumbers();
+
+        // 8.3 Перебрать ArrayList<String> и найти самую короткую строку.
+        hw.getShortestString();
+
+        // 8.4 Перебрать LinkedList<String> и заменить все гласные буквы в каждой строке на символ '*'.
+        hw.getReplacingVowelsWithStars();
+
+        // 8.5 Создать LinkedList с объектами вашего собственного класса и отсортировать их в порядке убывания.
+        hw.getSortDescendingOrder();
     }
 }

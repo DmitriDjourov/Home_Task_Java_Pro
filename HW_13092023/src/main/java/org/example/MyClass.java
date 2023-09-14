@@ -1,7 +1,7 @@
 package org.example;
 
 // 5.6 Создать ArrayList с объектами вашего собственного класса и вывести их на экран.
-public class MyClass {
+public class MyClass implements Comparable<MyClass>{
     private String name;
     private String last_name;
     private int age;
@@ -39,5 +39,10 @@ public class MyClass {
     @Override
     public String toString() {
         return name + ' ' + last_name + ' ' + age;
+    }
+
+    @Override
+    public int compareTo(MyClass o) {
+        return Integer.compare(o.age, this.age);
     }
 }

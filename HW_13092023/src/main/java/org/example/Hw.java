@@ -1,10 +1,8 @@
 package org.example;
 
-import java.util.ArrayList;
-import java.util.LinkedList;
-import java.util.List;
+import java.util.*;
 
-public class HW {
+public class Hw {
     // 5. Уровень сложности 5 из 10:
 
     // 5.1 Найти сумму всех элементов ArrayList<Integer>.
@@ -228,7 +226,7 @@ public class HW {
     }
 
     // 7.4 Перебрать LinkedList<String> и удалить все элементы, содержащие определенную подстроку.
-    public void getDelElemSpecificString(){
+    public void getDelElemSpecificString() {
         LinkedList<String> strings = new LinkedList<>();
         strings.add("Mik");
         strings.add("Dima");
@@ -239,24 +237,25 @@ public class HW {
         String subStrToRemove = "na";
 
         System.out.println(" 7.4 Мой массив до удаления элементов содержащих подстроку - %na :");
-        for (String string : strings){
+        for (String string : strings) {
             System.out.println(string);
         }
 
         for (int i = 0; i < strings.size(); i++) {
             String currentStr = strings.get(i);
-            if(currentStr.contains(subStrToRemove)){
+            if (currentStr.contains(subStrToRemove)) {
                 strings.remove(i);
                 i--;
-            }else {
+            } else {
                 i++;
             }
         }
         System.out.println("     Мой массив после удаления элементов содержащих подстроку - %na :");
-        for (String string : strings){
+        for (String string : strings) {
             System.out.println(string);
         }
     }
+
     // 7.5 Создать ArrayList с объектами вашего собственного класса и вывести только те,
     // которые удовлетворяют определенному условию.
     public void doMyClassListSpecificPrint() {
@@ -288,6 +287,102 @@ public class HW {
     // Уровень сложности 8 из 10:
 
     // 8.1 Перебрать ArrayList<Integer> и найти сумму квадратов всех элементов.
+    public void doSumSumSquaresAllNumbers() {
+        ArrayList<Integer> lists = new ArrayList<>();
+        lists.add(4);
+        lists.add(7);
+        lists.add(2);
+        lists.add(5);
+        lists.add(9);
+
+        int sumSquaews = 0;
+
+        for (Integer integer : lists) {
+            sumSquaews = sumSquaews + (integer * integer);
+        }
+        System.out.println(" 8.1 Сумма квадратов всех чисел : " + sumSquaews);
+    }
+
+    // 8.2 Перебрать LinkedList<Integer> и вычислить произведение всех элементов.
+    public void doProductAllNumbers() {
+        LinkedList<Integer> lists = new LinkedList<>();
+        lists.add(4);
+        lists.add(7);
+        lists.add(2);
+        lists.add(5);
+        lists.add(9);
+
+        int prodNum = 1;
+
+        for (Integer integer : lists) {
+            prodNum = prodNum * integer;
+        }
+        System.out.println(" 8.2 Произведение всех чисел : " + prodNum);
+    }
+
+    // 8.3 Перебрать ArrayList<String> и найти самую короткую строку.
+    public void getShortestString() {
+        ArrayList<String> strings = new ArrayList<>();
+        strings.add("Mik");
+        strings.add("Dima");
+        strings.add("Irina");
+        strings.add("Anna");
+
+        String shotString = null;
+
+        for (String string : strings) {
+            if (shotString == null || string.length() < shotString.length()) {
+                shotString = string;
+            }
+        }
+        System.out.println(" 8.3 Самая короткая строка: " + shotString);
+    }
+
+    // 8.4 Перебрать LinkedList<String> и заменить все гласные буквы в каждой строке на символ '*'.
+    public void getReplacingVowelsWithStars() {
+        LinkedList<String> strings = new LinkedList<>();
+        strings.add("Mama");
+        strings.add("Mila");
+        strings.add("Ramu");
+
+        System.out.println(" 8.4 Мой массив до замены гласных букв на звездочки :");
+        for (String string : strings) {
+            System.out.println(string);
+        }
+
+        for (int i = 0; i < strings.size(); i++) {
+            String currentStr = strings.get(i);
+            String newString = currentStr.replaceAll("[AEIOUaeiou]", "*");
+            strings.set(i, newString);
+        }
+        System.out.println("     Мой массив после замены гласных букв на звездочки : ");
+        for (String string : strings) {
+            System.out.println(string);
+        }
+    }
+
+    // 8.5 Создать LinkedList с объектами вашего собственного класса и отсортировать их в порядке убывания.
+    public void getSortDescendingOrder() {
+        MyClass myClass1 = new MyClass("Nik", "Zadov", 19);
+        MyClass myClass2 = new MyClass("Anna", "Kohava", 29);
+        MyClass myClass3 = new MyClass("Vasia", "Pupkin", 39);
+
+        LinkedList<MyClass> myClasses = new LinkedList<>();
+        myClasses.add(myClass1);
+        myClasses.add(myClass2);
+        myClasses.add(myClass3);
+        System.out.println(" 8.5 Мой массив до сортировки в порядке убывания по возрасту: ");
+        for (MyClass myClass : myClasses) {
+            System.out.println(myClass);
+        }
+
+        Collections.sort(myClasses);
+
+        System.out.println("     Мой массив после сортировки в порядке убывания по возрасту: ");
+        for (MyClass myClass : myClasses) {
+            System.out.println(myClass);
+        }
+    }
 
 }
 
