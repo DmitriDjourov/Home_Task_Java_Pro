@@ -6,47 +6,64 @@ public class Hw {
     // 5. Уровень сложности 5 из 10:
 
     // 5.1 Найти сумму всех элементов ArrayList<Integer>.
-    public int getSum(List<Integer> list) {
+    public void getSum() {
+        List<Integer> numbers = new ArrayList<>();
+        numbers.add(5);
+        numbers.add(7);
+        numbers.add(12);
+
         int sum = 0;
-        for (Integer integer : list) {
+        for (Integer integer : numbers) {
             sum = sum + integer;
         }
-        /* for (int i = 0; i < list.size(); i++) {
-            sum = sum + list.get(i);
-         }*/
-        return sum;
+        System.out.println("5.1 Сумма всех элементов  ArrayList<Integer> списка : " + sum);
     }
 
     // 5.2 Найти среднее значение элементов LinkedList<Integer>.
-    public int getAvg(List<Integer> list) {
+    public void getAvg() {
+        LinkedList<Integer> numbers = new LinkedList<>();
+        numbers.add(8);
+        numbers.add(17);
+        numbers.add(83);
+
         int avg = 0;
         int sum = 0;
-        for (Integer integer : list) {
+        for (Integer integer : numbers) {
             sum = sum + integer;
         }
-        avg = sum / list.size();
-        return avg;
+        avg = sum / numbers.size();
+        System.out.println("5.2 Среднее значение всех элементов списка : " + avg);
     }
 
     // 5.3 Перебрать ArrayList<String> и вывести все элементы на экран.
-    public void ArrayList(List<String> list) {
+    public void ArrayList() {
+        List<String> strings = new ArrayList<>();
+        strings.add("Nik");
+        strings.add("Vasya");
+        strings.add("Anna");
+
         System.out.println("5.3 Элементы ArrayList<String> :");
-        for (String string : list) {
+        for (String string : strings) {
             System.out.println(string);
         }
     }
 
     // 5.4 Перебрать LinkedList<String> и найти самую длинную строку.
-    public void getLongestStreng(List<String> list) {
+    public void getLongestStreng() {
+        LinkedList<String> strings = new LinkedList<>();
+        strings.add("Mik");
+        strings.add("Dima");
+        strings.add("Irina");
+
         int longestElemIndex = 0; // индекс элемента
-        int elemlength = list.get(0).length(); // размер элемента на 0 индексе
-        for (int i = 1; i < list.size(); i++) {
-            if (list.get(i).length() > elemlength) {
-                elemlength = list.get(i).length();
+        int elemlength = strings.get(0).length(); // размер элемента на 0 индексе
+        for (int i = 1; i < strings.size(); i++) {
+            if (strings.get(i).length() > elemlength) {
+                elemlength = strings.get(i).length();
                 longestElemIndex = i;
             }
         }
-        System.out.println("5.4 Самая длинная строка : " + list.get(longestElemIndex));
+        System.out.println("5.4 Самая длинная строка : " + strings.get(longestElemIndex));
     }
 
     // 5.5 Создать ArrayList с объектами вашего собственного класса и вывести их на экран.
@@ -60,6 +77,7 @@ public class Hw {
         myClasses.add(myClass2);
         myClasses.add(myClass3);
 
+        System.out.println("5.6 ArrayList с объектами моего класса : ");
         for (MyClass myClass : myClasses) {
             System.out.println(myClass);
         }
@@ -68,34 +86,50 @@ public class Hw {
     //        Уровень сложности 6 из 10:
 
     // 6.1 Перебрать ArrayList<Integer> и найти наименьший элемент.
-    public int getMinElem(List<Integer> list) {
+    public void getMinElem() {
+        List<Integer> numbers = new ArrayList<>();
+        numbers.add(5);
+        numbers.add(7);
+        numbers.add(12);
+
         int minElem = Integer.MAX_VALUE;
 
-        for (int i = 0; i < list.size(); i++) {
-            if (list.get(i) < minElem) {
-                minElem = list.get(i);
+        for (int i = 0; i < numbers.size(); i++) {
+            if (numbers.get(i) < minElem) {
+                minElem = numbers.get(i);
             }
         }
-        return minElem;
+        System.out.println("6.1 Наименьший из всех элементов списка : " + minElem);
     }
 
     // 6.2 Перебрать LinkedList<Integer> и найти наибольший элемент.
-    public int getMaxElem(List<Integer> list) {
+    public void getMaxElem() {
+        LinkedList<Integer> numbers = new LinkedList<>();
+        numbers.add(8);
+        numbers.add(17);
+        numbers.add(83);
+
         int maxElem = Integer.MIN_VALUE;
 
-        for (int i = 0; i < list.size(); i++) {
-            if (list.get(i) > maxElem) {
-                maxElem = list.get(i);
+        for (int i = 0; i < numbers.size(); i++) {
+            if (numbers.get(i) > maxElem) {
+                maxElem = numbers.get(i);
             }
         }
-        return maxElem;
+        System.out.println("6.2 Наибольший из всех элементов списка : " + maxElem);
     }
 
     // 6.3 Перебрать ArrayList<String> и найти количество элементов, начинающихся с определенной буквы.
-    public void doArrayListStringStartC(List<String> list) {
+    public void doArrayListStringStartC() {
+        ArrayList<String> arrayList = new ArrayList<>();
+        arrayList.add("Cherry");
+        arrayList.add("Banana");
+        arrayList.add("Orange");
+        arrayList.add("Cat");
+
         char startletter = 'C';
         int counter = 0;
-        for (String str : list) {
+        for (String str : arrayList) {
             char firstLetter = str.toUpperCase().charAt(0);
             if (firstLetter == Character.toUpperCase(startletter)) {
                 counter++;
@@ -105,12 +139,17 @@ public class Hw {
     }
 
     // 6.4 Перебрать LinkedList<String> и найти первое вхождение определенной строки.
-    public void doAnotherFirstLine(List<String> list) {
+    public void doAnotherFirstLine() {
+        LinkedList<String> strings = new LinkedList<>();
+        strings.add("Mik");
+        strings.add("Dima");
+        strings.add("Irina");
+
         String targetString = "Dima";
         int index = -1; //flag
 
-        for (int i = 0; i < list.size(); i++) {
-            String currentString = list.get(i);
+        for (int i = 0; i < strings.size(); i++) {
+            String currentString = strings.get(i);
             if (currentString.equals(targetString)) {
                 index = i;
                 break;
@@ -190,7 +229,7 @@ public class Hw {
         numbers_list.add(6);
         numbers_list.add(11);
 
-        System.out.println(" 7.1 Мой массив до замены, всех кратных 3 чисел на 0:");
+        System.out.println(" 7.2 Мой массив до замены, всех кратных 3 чисел на 0:");
         for (Integer integer : numbers_list) {
             System.out.println(integer);
         }
@@ -384,6 +423,120 @@ public class Hw {
         }
     }
 
+    // Уровень сложности 9 из 10
+
+    // 9.1 Перебрать ArrayList<Integer> и найти второй по величине элемент.
+    public void FindSecondLargestElement() {
+        ArrayList<Integer> numbers = new ArrayList<>();
+        numbers.add(4);
+        numbers.add(7);
+        numbers.add(2);
+        numbers.add(5);
+        numbers.add(9);
+
+        Collections.sort(numbers, Collections.reverseOrder());// Сортируем ArrayList в порядке убывания
+        // Второй по величине элемент будет на позиции с индексом 1 (первый элемент после максимального)
+        if (numbers.size() >= 2) {
+            int secondLargest = numbers.get(1);
+            System.out.println(" 9.1 Второй по величине элемент( с индексом 1) : " + secondLargest);
+        } else {
+            System.out.println(" 9.1 Второй элемент отсутствует, список или пустой, или слишком короткий. ");
+        }
+    }
+
+    // 9.2 Перебрать LinkedList<Integer> и вывести все элементы в обратном порядке.
+    public void ElemReverseOrder() {
+        ArrayList<Integer> numbers = new ArrayList<>();
+        numbers.add(4);
+        numbers.add(7);
+        numbers.add(2);
+        numbers.add(5);
+        numbers.add(9);
+
+        System.out.print(" 9.2 Все элементы массива : ");
+        for (Integer integer : numbers) {
+            System.out.print(integer);
+        }
+        System.out.println();
+        System.out.print("     Все элементы массива в обратном порядке : ");
+        for (int i = numbers.size() - 1; i >= 0; i--) {
+            int currentNum = numbers.get(i);
+            System.out.print(currentNum);
+        }
+        System.out.println();
+    }
+
+    // 9.3 Перебрать ArrayList<String> и вывести все строки, содержащие только буквы.
+    public void getOnlyStringsWithLetters() {
+        ArrayList<String> strings = new ArrayList<>();
+        strings.add("Dima");
+        strings.add("324Vasiya");
+        strings.add("Tom432");
+        strings.add("Misha");
+        strings.add("Abramchik");
+
+        System.out.println(" 9.3 Все элементы массива : ");
+        for (String str : strings) {
+            System.out.println(str);
+        }
+
+        System.out.println("     Все элементы массива содержащие только буквы : ");
+        for (String str : strings) {
+            if (str.matches("[a-zA-Z]+")) {
+                System.out.println(str);
+            }
+        }
+    }
+
+    // 9.4 Перебрать LinkedList<String> и найти самую длинную строку, не содержащую пробелов.
+    public void getlongestStringWithoutSpaces() {
+        LinkedList<String> strings = new LinkedList<>();
+        strings.add("Мама мыла раму");
+        strings.add("Рама мыла маму");
+        strings.add("Мамамылараму");
+
+        // Переменная для хранения самой длинной строки без пробелов
+        String longestStrElem = "";
+
+        for (String string : strings) {
+            // Проверяем, не содержит ли текущая строка пробелы и длиннее ли она текущей самой длинной
+            if (!string.contains(" ") && string.length() > longestStrElem.length()) {
+                longestStrElem = string;
+            }
+        }
+        System.out.println(" 9.4 Самая длинная строка без пробелов: " + longestStrElem);
+    }
+
+    // 9.5 Создать ArrayList с объектами вашего собственного класса и отфильтровать только уникальные элементы.
+    public void getOnlyUnicElem() {
+        MyClass myClass1 = new MyClass("Nik", "Zadov", 19);
+        MyClass myClass2 = new MyClass("Anna", "Kohava", 29);
+        MyClass myClass3 = new MyClass("Anna", "Kohava", 29);
+        MyClass myClass4 = new MyClass("Anna", "Kohava", 29);
+        MyClass myClass5 = new MyClass("Vasia", "Pupkin", 39);
+
+        List<MyClass> myClasses = new ArrayList<>();
+        myClasses.add(myClass1);
+        myClasses.add(myClass2);
+        myClasses.add(myClass3);
+        myClasses.add(myClass4);
+        myClasses.add(myClass5);
+
+        System.out.println(" 9.5 Мой массив до фильтра по уникальности : ");
+        for (MyClass myClass : myClasses) {
+            System.out.println(myClass);
+        }
+        // Используем HashSet для фильтрации уникальных объектов
+        Set<MyClass> uniquePeople = new HashSet<>(myClasses);
+        // Конвертируем Set обратно в ArrayList, если это необходимо
+        List<MyClass> filteredPeople = new ArrayList<>(uniquePeople);
+
+        System.out.println("     Мой массив после фильтра по уникальности: ");
+        for (MyClass myClass : filteredPeople) {
+            System.out.println(myClass);
+        }
+    }
 }
+
 
 

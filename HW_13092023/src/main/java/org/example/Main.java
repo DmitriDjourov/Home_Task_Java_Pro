@@ -12,64 +12,33 @@ public class Main {
         //Уровень сложности 5 из 10
 
         // 5.1 Найти сумму всех элементов ArrayList<Integer>.
-        List<Integer> numbers_arr = new ArrayList<>();
-        numbers_arr.add(5);
-        numbers_arr.add(7);
-        numbers_arr.add(12);
-
-        int sum = hw.getSum(numbers_arr);
-        System.out.println("5.1 Сумма всех элементов  ArrayList<Integer> списка : " + sum);
+        hw.getSum();
 
         // 5.2 Найти среднее значение элементов LinkedList<Integer>.
-        LinkedList<Integer> numbers = new LinkedList<>();
-        numbers.add(8);
-        numbers.add(17);
-        numbers.add(83);
-
-        int avg = hw.getAvg(numbers);
-        System.out.println("5.2 Среднее значение всех элементов списка : " + avg);
+        hw.getAvg();
 
         // 5.3 Перебрать ArrayList<String> и вывести все элементы на экран.
-        List<String> strings_arr = new ArrayList<>();
-        strings_arr.add("Nik");
-        strings_arr.add("Vasya");
-        strings_arr.add("Anna");
-
-        hw.ArrayList(strings_arr);
+        hw.ArrayList();
 
         // 5.4 Перебрать LinkedList<String> и найти самую длинную строку.
-        LinkedList<String> strings = new LinkedList<>();
-        strings.add("Mik");
-        strings.add("Dima");
-        strings.add("Irina");
-
-        hw.getLongestStreng(strings);
+        hw.getLongestStreng();
 
         // 5.5 Создать ArrayList с объектами вашего собственного класса и вывести их на экран.
-        System.out.println("5.6 ArrayList с объектами моего класса : ");
         hw.doMyClassList();
 
         // Уровень сложности 6 из 10:
 
         // 6.1 Перебрать ArrayList<Integer> и найти наименьший элемент.
-        int min = hw.getMinElem(numbers_arr);
-        System.out.println("6.1 Наименьший из всех элементов списка : " + min);
+        hw.getMinElem();
 
         // 6.2 Перебрать LinkedList<Integer> и найти наибольший элемент.
-        int max = hw.getMaxElem(numbers);
-        System.out.println("6.2 Наибольший из всех элементов списка : " + max);
+        hw.getMaxElem();
 
         // 6.3 Перебрать ArrayList<String> и найти количество элементов, начинающихся с определенной буквы.
-        ArrayList<String> arrayList = new ArrayList<>();
-        arrayList.add("Cherry");
-        arrayList.add("Banana");
-        arrayList.add("Orange");
-        arrayList.add("Cat");
-
-        hw.doArrayListStringStartC(arrayList);
+        hw.doArrayListStringStartC();
 
         // 6.4 Перебрать LinkedList<String> и найти первое вхождение определенной строки.
-        hw.doAnotherFirstLine(strings);
+        hw.doAnotherFirstLine();
 
         // 6.5 Создать LinkedList с объектами вашего собственного класса и удалить все элементы,
         //     удовлетворяющие определенному условию.
@@ -109,5 +78,22 @@ public class Main {
 
         // 8.5 Создать LinkedList с объектами вашего собственного класса и отсортировать их в порядке убывания.
         hw.getSortDescendingOrder();
+
+        // Уровень сложности 9 из 10
+
+        // 9.1 Перебрать ArrayList<Integer> и найти второй по величине элемент.
+        hw.FindSecondLargestElement();
+
+        // 9.2 Перебрать LinkedList<Integer> и вывести все элементы в обратном порядке.
+        hw.ElemReverseOrder();
+
+        // 9.3 Перебрать ArrayList<String> и вывести все строки, содержащие только буквы.
+        hw.getOnlyStringsWithLetters();
+
+        // 9.4 Перебрать LinkedList<String> и найти самую длинную строку, не содержащую пробелов.
+        hw.getlongestStringWithoutSpaces();
+
+        // 9.5 Создать ArrayList с объектами вашего собственного класса и отфильтровать только уникальные элементы.
+        hw.getOnlyUnicElem();
     }
 }
