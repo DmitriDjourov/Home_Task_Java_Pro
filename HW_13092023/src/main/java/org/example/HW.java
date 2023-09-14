@@ -150,11 +150,145 @@ public class HW {
                 i--;
             }
         }
-        System.out.println("Мой массив до удаления, старого пердуна :");
+        System.out.println("   Мой массив после удаления, старого пердуна :");
         for (MyClass myClass : myClasses) {
             System.out.println(myClass);
         }
     }
+
+    //    Уровень сложности 7 из 10:
+    // 7.1 Перебрать ArrayList<Integer> и удалить все четные числа.
+    public void doDelEvenElem() {
+        List<Integer> numbers_arr_list = new ArrayList<>();
+        numbers_arr_list.add(5);
+        numbers_arr_list.add(7);
+        numbers_arr_list.add(12);
+        numbers_arr_list.add(86);
+        numbers_arr_list.add(11);
+
+        System.out.println(" 7.1 Мой массив до удаления, всех четных чисел :");
+        for (Integer integer : numbers_arr_list) {
+            System.out.println(integer);
+        }
+
+        for (int i = 0; i < numbers_arr_list.size(); i++) {
+            if (numbers_arr_list.get(i) % 2 == 0) {
+                numbers_arr_list.remove(i);
+                i--;
+            }
+        }
+        System.out.println("     Мой массив после удаления, всех четных чисел :");
+        for (Integer integer : numbers_arr_list) {
+            System.out.println(integer);
+        }
+    }
+
+    // 7.2 Перебрать LinkedList<Integer> и заменить все элементы, кратные 3, на нули.
+    public void doReplaceElemMultiples3_zero() {
+        LinkedList<Integer> numbers_list = new LinkedList<>();
+        numbers_list.add(5);
+        numbers_list.add(9);
+        numbers_list.add(12);
+        numbers_list.add(6);
+        numbers_list.add(11);
+
+        System.out.println(" 7.1 Мой массив до замены, всех кратных 3 чисел на 0:");
+        for (Integer integer : numbers_list) {
+            System.out.println(integer);
+        }
+
+        for (int i = 0; i < numbers_list.size(); i++) {
+            if (numbers_list.get(i) % 3 == 0) {
+                numbers_list.set(i, 0);
+            }
+        }
+        System.out.println("     Мой массив после замены, всех кратных 3 чисел на 0:");
+        for (Integer integer : numbers_list) {
+            System.out.println(integer);
+        }
+    }
+
+    // 7.3 Перебрать ArrayList<String> и объединить все элементы в одну строку.
+    public void DoAllElemOneString() {
+        List<String> myLists = new ArrayList<>();
+        myLists.add("Mik");
+        myLists.add("Dima");
+        myLists.add("Irina");
+
+        StringBuilder allString = new StringBuilder();
+
+        System.out.println(" 7.3 Массив строк до объединения : ");
+
+        for (String list : myLists) {
+            System.out.println(list);
+            allString.append(" ").append(list);
+        }
+
+        System.out.println("Строка после объединения : " + allString + " ");
+    }
+
+    // 7.4 Перебрать LinkedList<String> и удалить все элементы, содержащие определенную подстроку.
+    public void getDelElemSpecificString(){
+        LinkedList<String> strings = new LinkedList<>();
+        strings.add("Mik");
+        strings.add("Dima");
+        strings.add("Irina");
+        strings.add("Anna");
+        strings.add("Tom");
+
+        String subStrToRemove = "na";
+
+        System.out.println(" 7.4 Мой массив до удаления элементов содержащих подстроку - %na :");
+        for (String string : strings){
+            System.out.println(string);
+        }
+
+        for (int i = 0; i < strings.size(); i++) {
+            String currentStr = strings.get(i);
+            if(currentStr.contains(subStrToRemove)){
+                strings.remove(i);
+                i--;
+            }else {
+                i++;
+            }
+        }
+        System.out.println("     Мой массив после удаления элементов содержащих подстроку - %na :");
+        for (String string : strings){
+            System.out.println(string);
+        }
+    }
+    // 7.5 Создать ArrayList с объектами вашего собственного класса и вывести только те,
+    // которые удовлетворяют определенному условию.
+    public void doMyClassListSpecificPrint() {
+        MyClass myClass1 = new MyClass("Nik", "Zadov", 19);
+        MyClass myClass2 = new MyClass("Anna", "Kohava", 29);
+        MyClass myClass3 = new MyClass("Vasia", "Pupkin", 39);
+
+        int specificElemAge = 20;
+
+        List<MyClass> myClasses = new ArrayList<>();
+        myClasses.add(myClass1);
+        myClasses.add(myClass2);
+        myClasses.add(myClass3);
+
+        System.out.println(" 7.5 Мой массив :");
+
+        for (MyClass myClass : myClasses) {
+            System.out.println(myClass);
+        }
+
+        System.out.println("    Мой массив, все кто старше 20 лет :");
+        for (int i = 0; i < myClasses.size(); i++) {
+            if (myClasses.get(i).getAge() > specificElemAge) {
+                System.out.println(myClasses.get(i));
+            }
+        }
+    }
+
+    // Уровень сложности 8 из 10:
+
+    // 8.1 Перебрать ArrayList<Integer> и найти сумму квадратов всех элементов.
+
 }
 
 

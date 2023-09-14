@@ -7,9 +7,11 @@ import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
-//        Уровень сложности 5 из 10:
         HW hw = new HW();
-// 5.1 Найти сумму всех элементов ArrayList<Integer>.
+
+        //Уровень сложности 5 из 10
+
+        // 5.1 Найти сумму всех элементов ArrayList<Integer>.
         List<Integer> numbers_arr = new ArrayList<>();
         numbers_arr.add(5);
         numbers_arr.add(7);
@@ -47,7 +49,7 @@ public class Main {
         System.out.println("5.6 ArrayList с объектами моего класса : ");
         hw.doMyClassList();
 
-//        Уровень сложности 6 из 10:
+        // Уровень сложности 6 из 10:
 
         // 6.1 Перебрать ArrayList<Integer> и найти наименьший элемент.
         int min = hw.getMinElem(numbers_arr);
@@ -72,5 +74,27 @@ public class Main {
         // 6.5 Создать LinkedList с объектами вашего собственного класса и удалить все элементы,
         //     удовлетворяющие определенному условию.
         hw.doMyClassListDelElem();
+
+        // Уровень сложности 7 из 10:
+
+        // 7.1 Перебрать ArrayList<Integer> и удалить все четные числа.
+        hw.doDelEvenElem();
+
+        // 7.2 Перебрать LinkedList<Integer> и заменить все элементы, кратные 3, на нули.
+        hw.doReplaceElemMultiples3_zero();
+
+        // 7.3 Перебрать ArrayList<String> и объединить все элементы в одну строку.
+        hw.DoAllElemOneString();
+
+        // 7.4 Перебрать LinkedList<String> и удалить все элементы, содержащие определенную подстроку.
+        hw.getDelElemSpecificString();
+
+        // 7.5 Создать ArrayList с объектами вашего собственного класса и вывести только те,
+        //     которые удовлетворяют определенному условию.(все кто старше 20 лет)
+        hw.doMyClassListSpecificPrint();
+
+        // Уровень сложности 8 из 10:
+
+        // 8.1 Перебрать ArrayList<Integer> и найти сумму квадратов всех элементов.
     }
 }
