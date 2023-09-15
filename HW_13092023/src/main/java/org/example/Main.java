@@ -101,5 +101,16 @@ public class Main {
         // 10.1 Перебрать ArrayList<Integer> и найти наибольшую возрастающую последовательность элементов.
         hw.getFindLargestIncreasingSequenceElem();
 
+        // 10.2 Перебрать LinkedList<Integer> и удалить все дубликаты элементов.
+        hw.getDelAllDuplicateElem();
+
+        // 10.3 Перебрать ArrayList<String> и создать новый список, содержащий только уникальные строки.
+        hw.getOnlUniqueStrings();
+
+        // 10.4 Перебрать LinkedList<String> и объединить все строки в одну с использованием разделителя.
+        hw.getAllDelimitedString();
+
+        // 10.5 Создать LinkedList с объектами вашего собственного класса и отсортировать их по нескольким критериям.
+        hw.getMyListMitFullySorted();
     }
 }

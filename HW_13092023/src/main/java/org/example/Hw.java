@@ -538,7 +538,7 @@ public class Hw {
     }
 
     // 10.1 Перебрать ArrayList<Integer> и найти наибольшую возрастающую последовательность элементов.
-    public void getFindLargestIncreasingSequenceElem(){
+    public void getFindLargestIncreasingSequenceElem() {
         ArrayList<Integer> numbers = new ArrayList<>();
         numbers.add(1);
         numbers.add(2);
@@ -573,6 +573,105 @@ public class Hw {
             longestSequence = new ArrayList<>(currentSequence);
         }
         System.out.println(" 10.1 Наибольшая возрастающая последовательность: " + longestSequence);
+    }
+
+    // 10.2 Перебрать LinkedList<Integer> и удалить все дубликаты элементов.
+    public void getDelAllDuplicateElem() {
+        LinkedList<Integer> numbers = new LinkedList<>();
+        numbers.add(1);
+        numbers.add(2);
+        numbers.add(3);
+        numbers.add(3);
+        numbers.add(4);
+        numbers.add(1);
+
+        System.out.println(" 10.2 Полный список: " + numbers);
+        // HashSet для удаления дубликатов
+        HashSet<Integer> uniqueNumbers = new HashSet<>();
+        Iterator<Integer> iterator = numbers.iterator();  // для перебора с некст
+
+        while (iterator.hasNext()) {
+            Integer number = iterator.next();
+            if (!uniqueNumbers.add(number)) {
+                iterator.remove();
+            }
+        }
+        System.out.println("      Список без дубликатов: " + numbers);
+    }
+
+    // 10.3 Перебрать ArrayList<String> и создать новый список, содержащий только уникальные строки.
+    public void getOnlUniqueStrings() {
+        ArrayList<String> strings = new ArrayList<>();
+        strings.add("Zorro");
+        strings.add("Masha");
+        strings.add("Masha");
+        strings.add("Masha");
+        strings.add("Barmaley");
+        strings.add("Barmaley");
+        strings.add("Dima");
+        strings.add("Misha");
+        System.out.println(" 10.3 Список дублированных записей : " + strings);
+        // хранения уникальных строк
+        HashSet<String> uniStr = new HashSet<>(strings);
+
+        // новый ArrayList с уникальными строками
+        List<String> uniList = new ArrayList<>(uniStr);
+        System.out.println("      Список без дублированных записей : " + uniList);
+    }
+    // 10.4 Перебрать LinkedList<String> и объединить все строки в одну с использованием разделителя.
+
+    public void getAllDelimitedString() {
+        LinkedList<String> strings = new LinkedList<>();
+        strings.add("Mama");
+        strings.add("Mila");
+        strings.add("Ramu");
+
+        System.out.println(" 10.4 Полный список: " + strings);
+        // разделитель
+        String razdelitel = " | ";
+        // общий стринг
+        StringBuilder fullString = new StringBuilder();
+
+        // перебираем и обьединяем
+        for (String str : strings) {
+            fullString.append(str);
+            fullString.append(razdelitel);
+        }
+        // удаляем последний разделитель
+        if (fullString.length() > 0) {
+            fullString.delete(fullString.length() - razdelitel.length(), fullString.length());
+        }
+
+        String resultatStr = fullString.toString();
+        System.out.println("      Объединенная строка: " + resultatStr);
+    }
+
+    // 10.5 Создать LinkedList с объектами вашего собственного класса и отсортировать их по нескольким критериям.
+    public void getMyListMitFullySorted() {
+        MyClass myClass1 = new MyClass("Nik", "Zadov", 19);
+        MyClass myClass2 = new MyClass("Koliya", "Kohav", 29);
+        MyClass myClass3 = new MyClass("Poll", "Makartni", 129);
+        MyClass myClass4 = new MyClass("Anna", "Kohava", 29);
+        MyClass myClass5 = new MyClass("Vasia", "Pupkin", 39);
+
+        LinkedList<MyClass> myClasses = new LinkedList<>();
+        myClasses.add(myClass1);
+        myClasses.add(myClass2);
+        myClasses.add(myClass3);
+        myClasses.add(myClass4);
+        myClasses.add(myClass5);
+
+        System.out.println(" 10.5 Мой список до сортировки : ");
+        for (MyClass myClass : myClasses) {
+            System.out.println(myClass);
+        }
+        MyCompararorClass comparator = new MyCompararorClass();
+        Collections.sort(myClasses, comparator);
+
+        System.out.println("      Мой список после сортировки : ");
+        for (MyClass myClass : myClasses) {
+            System.out.println(myClass);
+        }
     }
 }
 
