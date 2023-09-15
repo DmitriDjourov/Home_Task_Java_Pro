@@ -536,6 +536,44 @@ public class Hw {
             System.out.println(myClass);
         }
     }
+
+    // 10.1 Перебрать ArrayList<Integer> и найти наибольшую возрастающую последовательность элементов.
+    public void getFindLargestIncreasingSequenceElem(){
+        ArrayList<Integer> numbers = new ArrayList<>();
+        numbers.add(1);
+        numbers.add(2);
+        numbers.add(3);
+        numbers.add(4);
+        numbers.add(5);
+        numbers.add(6);
+        numbers.add(7);
+        numbers.add(8);
+        numbers.add(9);
+        numbers.add(10);
+        numbers.add(11);
+
+        List<Integer> currentSequence = new ArrayList<>();
+        List<Integer> longestSequence = new ArrayList<>();
+
+        for (int i = 0; i < numbers.size() - 1; i++) {
+            int currentNumber = numbers.get(i);
+            int nextNumber = numbers.get(i + 1);
+
+            if (nextNumber == currentNumber + 1) {
+                currentSequence.add(currentNumber);
+            } else {
+                // Если последовательность обрывается, сравниваем ее с наибольшей найденной
+                if (currentSequence.size() > longestSequence.size()) {
+                    longestSequence = new ArrayList<>(currentSequence);
+                }
+                currentSequence.clear();
+            }
+        }
+        if (currentSequence.size() > longestSequence.size()) {
+            longestSequence = new ArrayList<>(currentSequence);
+        }
+        System.out.println(" 10.1 Наибольшая возрастающая последовательность: " + longestSequence);
+    }
 }
 
 

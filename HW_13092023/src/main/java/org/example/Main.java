@@ -95,5 +95,11 @@ public class Main {
 
         // 9.5 Создать ArrayList с объектами вашего собственного класса и отфильтровать только уникальные элементы.
         hw.getOnlyUnicElem();
+
+        // Уровень сложности 10 из 10:
+
+        // 10.1 Перебрать ArrayList<Integer> и найти наибольшую возрастающую последовательность элементов.
+        hw.getFindLargestIncreasingSequenceElem();
+
     }
 }
