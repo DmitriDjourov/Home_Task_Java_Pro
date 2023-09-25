@@ -233,9 +233,9 @@ gradeStudents() - метод для автоматической выставл�
 ##  [HW_25092023](https://github.com/DmitriDjourov/Home_Task_Java_Pro/tree/main/HW_25092023)   
 
 - [Класс состоящий мз 4 полей разного типа](HW_25092023/src/main/java/org/example/Student.java)
-- {Создать 10 объектов класса](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/a08f151b33f25ba8001ffb7572b51f5ee6240fc5/HW_25092023/src/main/java/org/example/Main.java#L8)
-- {Поместить все с Хэш СЕт и вывести на экран](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/a08f151b33f25ba8001ffb7572b51f5ee6240fc5/HW_25092023/src/main/java/org/example/Main.java#L20)
-- {Создайте TreeSet и найдите наименьший и наибольший элементы (int) в нем, перебирая элементы внутри набора.](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/a08f151b33f25ba8001ffb7572b51f5ee6240fc5/HW_25092023/src/main/java/org/example/Main.java#L54)
+- [Создать 10 объектов класса](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/a08f151b33f25ba8001ffb7572b51f5ee6240fc5/HW_25092023/src/main/java/org/example/Main.java#L8)
+- [Поместить все с Хэш СЕт и вывести на экран](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/a08f151b33f25ba8001ffb7572b51f5ee6240fc5/HW_25092023/src/main/java/org/example/Main.java#L20)
+- [Создайте TreeSet и найдите наименьший и наибольший элементы (int) в нем, перебирая элементы внутри набора.](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/a08f151b33f25ba8001ffb7572b51f5ee6240fc5/HW_25092023/src/main/java/org/example/Main.java#L54)
 - [Напишите метод, который принимает Set и находит все объекты, содержащие определенную подстроку(из поля стринг), перебирая элементы и используя 
   метод contains.](HW_25092023/src/main/java/org/example/GetSearchSubStr.java)
 -[Напишите метод, которая удаляет все четные инт из HashSet и выводит оставшиеся элементы. Используйте итератор.](HW_25092023/src/main/java/org/example/GetDelEvenNum.java)
