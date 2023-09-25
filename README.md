@@ -113,108 +113,108 @@ gradeStudents() - метод для автоматической выставл�
 
 ## **[HW_13092003](https://github.com/DmitriDjourov/Home_Task_Java_Pro/tree/main/HW_13092023)**
 
-Уровень сложности 5 из 10
+## Уровень сложности 5 из 10
 
- 5.1 Найти сумму всех элементов ArrayList<Integer>.
+ 5.1 [Найти сумму всех элементов ArrayList<Integer>.](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/681d7d29c2bc7b40bcea3130ebf1cb98179be582/HW_13092023/src/main/java/org/example/Hw.java#L8)
         hw.getSum();
 
- 5.2 Найти среднее значение элементов LinkedList<Integer>.
+ 5.2 [Найти среднее значение элементов LinkedList<Integer>.](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/681d7d29c2bc7b40bcea3130ebf1cb98179be582/HW_13092023/src/main/java/org/example/Hw.java#L22)
         hw.getAvg();
 
- 5.3 Перебрать ArrayList<String> и вывести все элементы на экран.
+ 5.3 [Перебрать ArrayList<String> и вывести все элементы на экран.](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/681d7d29c2bc7b40bcea3130ebf1cb98179be582/HW_13092023/src/main/java/org/example/Hw.java#L38)
         hw.ArrayList();
 
- 5.4 Перебрать LinkedList<String> и найти самую длинную строку.
+ 5.4 [Перебрать LinkedList<String> и найти самую длинную строку.](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/681d7d29c2bc7b40bcea3130ebf1cb98179be582/HW_13092023/src/main/java/org/example/Hw.java#L51)
         hw.getLongestStreng();
 
- 5.5 Создать ArrayList с объектами вашего собственного класса и вывести их на экран.
+ 5.5 [Создать ArrayList с объектами вашего собственного класса и вывести их на экран.](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/681d7d29c2bc7b40bcea3130ebf1cb98179be582/HW_13092023/src/main/java/org/example/Hw.java#L69)
         hw.doMyClassList();
 
- Уровень сложности 6 из 10:
+## Уровень сложности 6 из 10:
 
- 6.1 Перебрать ArrayList<Integer> и найти наименьший элемент.
+ 6.1 [Перебрать ArrayList<Integer> и найти наименьший элемент.](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/681d7d29c2bc7b40bcea3130ebf1cb98179be582/HW_13092023/src/main/java/org/example/Hw.java#L88)
         hw.getMinElem();
 
- 6.2 Перебрать LinkedList<Integer> и найти наибольший элемент.
+ 6.2 [Перебрать LinkedList<Integer> и найти наибольший элемент.](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/681d7d29c2bc7b40bcea3130ebf1cb98179be582/HW_13092023/src/main/java/org/example/Hw.java#L105)
         hw.getMaxElem();
 
- 6.3 Перебрать ArrayList<String> и найти количество элементов, начинающихся с определенной буквы.
+ 6.3 [Перебрать ArrayList<String> и найти количество элементов, начинающихся с определенной буквы.](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/681d7d29c2bc7b40bcea3130ebf1cb98179be582/HW_13092023/src/main/java/org/example/Hw.java#L122)
         hw.doArrayListStringStartC();
 
- 6.4 Перебрать LinkedList<String> и найти первое вхождение определенной строки.
+ 6.4 [Перебрать LinkedList<String> и найти первое вхождение определенной строки.](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/681d7d29c2bc7b40bcea3130ebf1cb98179be582/HW_13092023/src/main/java/org/example/Hw.java#L141)
         hw.doAnotherFirstLine();
 
- 6.5 Создать LinkedList с объектами вашего собственного класса и удалить все элементы,
-     удовлетворяющие определенному условию.
+ 6.5 [Создать LinkedList с объектами вашего собственного класса и удалить все элементы,
+     удовлетворяющие определенному условию.](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/681d7d29c2bc7b40bcea3130ebf1cb98179be582/HW_13092023/src/main/java/org/example/Hw.java#L165)
         hw.doMyClassListDelElem();
 
- Уровень сложности 7 из 10:
+## Уровень сложности 7 из 10:
 
-7.1 Перебрать ArrayList<Integer> и удалить все четные числа.
+7.1 [Перебрать ArrayList<Integer> и удалить все четные числа.](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/681d7d29c2bc7b40bcea3130ebf1cb98179be582/HW_13092023/src/main/java/org/example/Hw.java#L197)
         hw.doDelEvenElem();
 
-7.2 Перебрать LinkedList<Integer> и заменить все элементы, кратные 3, на нули.
+7.2 [Перебрать LinkedList<Integer> и заменить все элементы, кратные 3, на нули.](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/681d7d29c2bc7b40bcea3130ebf1cb98179be582/HW_13092023/src/main/java/org/example/Hw.java#L223)
         hw.doReplaceElemMultiples3_zero();
 
-7.3 Перебрать ArrayList<String> и объединить все элементы в одну строку.
+7.3 [Перебрать ArrayList<String> и объединить все элементы в одну строку.](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/681d7d29c2bc7b40bcea3130ebf1cb98179be582/HW_13092023/src/main/java/org/example/Hw.java#L248)
         hw.DoAllElemOneString();
 
-7.4 Перебрать LinkedList<String> и удалить все элементы, содержащие определенную подстроку.
+7.4 [Перебрать LinkedList<String> и удалить все элементы, содержащие определенную подстроку.](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/681d7d29c2bc7b40bcea3130ebf1cb98179be582/HW_13092023/src/main/java/org/example/Hw.java#L267)
         hw.getDelElemSpecificString();
 
-7.5 Создать ArrayList с объектами вашего собственного класса и вывести только те,
-    которые удовлетворяют определенному условию.(все кто старше 20 лет)
+7.5 [Создать ArrayList с объектами вашего собственного класса и вывести только те,
+    которые удовлетворяют определенному условию.(все кто старше 20 лет)](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/681d7d29c2bc7b40bcea3130ebf1cb98179be582/HW_13092023/src/main/java/org/example/Hw.java#L298)
         hw.doMyClassListSpecificPrint();
 
-Уровень сложности 8 из 10:
+## Уровень сложности 8 из 10:
 
-8.1 Перебрать ArrayList<Integer> и найти сумму квадратов всех элементов.
+8.1 [Перебрать ArrayList<Integer> и найти сумму квадратов всех элементов.](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/681d7d29c2bc7b40bcea3130ebf1cb98179be582/HW_13092023/src/main/java/org/example/Hw.java#L328)
         hw.doSumSumSquaresAllNumbers();
 
-8.2 Перебрать LinkedList<Integer> и вычислить произведение всех элементов.
+8.2 [Перебрать LinkedList<Integer> и вычислить произведение всех элементов.](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/681d7d29c2bc7b40bcea3130ebf1cb98179be582/HW_13092023/src/main/java/org/example/Hw.java#L345)
         hw.doProductAllNumbers();
 
-8.3 Перебрать ArrayList<String> и найти самую короткую строку.
+8.3 [Перебрать ArrayList<String> и найти самую короткую строку.](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/681d7d29c2bc7b40bcea3130ebf1cb98179be582/HW_13092023/src/main/java/org/example/Hw.java#L362)
         hw.getShortestString();
 
-8.4 Перебрать LinkedList<String> и заменить все гласные буквы в каждой строке на символ '*'.
+8.4 [Перебрать LinkedList<String> и заменить все гласные буквы в каждой строке на символ '*'.](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/681d7d29c2bc7b40bcea3130ebf1cb98179be582/HW_13092023/src/main/java/org/example/Hw.java#L380)
         hw.getReplacingVowelsWithStars();
 
-8.5 Создать LinkedList с объектами вашего собственного класса и отсортировать их в порядке убывания.
+8.5 [Создать LinkedList с объектами вашего собственного класса и отсортировать их в порядке убывания.](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/681d7d29c2bc7b40bcea3130ebf1cb98179be582/HW_13092023/src/main/java/org/example/Hw.java#L403)
         hw.getSortDescendingOrder();
 
-Уровень сложности 9 из 10
+## Уровень сложности 9 из 10
 
-9.1 Перебрать ArrayList<Integer> и найти второй по величине элемент.
+9.1 [Перебрать ArrayList<Integer> и найти второй по величине элемент.](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/681d7d29c2bc7b40bcea3130ebf1cb98179be582/HW_13092023/src/main/java/org/example/Hw.java#L428)
         hw.FindSecondLargestElement();
 
-9.2 Перебрать LinkedList<Integer> и вывести все элементы в обратном порядке.
+9.2 [Перебрать LinkedList<Integer> и вывести все элементы в обратном порядке.](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/681d7d29c2bc7b40bcea3130ebf1cb98179be582/HW_13092023/src/main/java/org/example/Hw.java#L447)
         hw.ElemReverseOrder();
 
-9.3 Перебрать ArrayList<String> и вывести все строки, содержащие только буквы.
+9.3 [Перебрать ArrayList<String> и вывести все строки, содержащие только буквы.](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/681d7d29c2bc7b40bcea3130ebf1cb98179be582/HW_13092023/src/main/java/org/example/Hw.java#L469)
         hw.getOnlyStringsWithLetters();
 
-9.4 Перебрать LinkedList<String> и найти самую длинную строку, не содержащую пробелов.
+9.4 [Перебрать LinkedList<String> и найти самую длинную строку, не содержащую пробелов.](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/681d7d29c2bc7b40bcea3130ebf1cb98179be582/HW_13092023/src/main/java/org/example/Hw.java#L491)
         hw.getlongestStringWithoutSpaces();
 
-9.5 Создать ArrayList с объектами вашего собственного класса и отфильтровать только уникальные элементы.
+9.5 [Создать ArrayList с объектами вашего собственного класса и отфильтровать только уникальные элементы.](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/681d7d29c2bc7b40bcea3130ebf1cb98179be582/HW_13092023/src/main/java/org/example/Hw.java#L510)
         hw.getOnlyUnicElem();
 
-Уровень сложности 10 из 10:
+## Уровень сложности 10 из 10:
 
-10.1 Перебрать ArrayList<Integer> и найти наибольшую возрастающую последовательность элементов.
+10.1 [Перебрать ArrayList<Integer> и найти наибольшую возрастающую последовательность элементов.](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/681d7d29c2bc7b40bcea3130ebf1cb98179be582/HW_13092023/src/main/java/org/example/Hw.java#L540)
         hw.getFindLargestIncreasingSequenceElem();
 
-10.2 Перебрать LinkedList<Integer> и удалить все дубликаты элементов.
+10.2 [Перебрать LinkedList<Integer> и удалить все дубликаты элементов.](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/681d7d29c2bc7b40bcea3130ebf1cb98179be582/HW_13092023/src/main/java/org/example/Hw.java#L578)
         hw.getDelAllDuplicateElem();
 
-10.3 Перебрать ArrayList<String> и создать новый список, содержащий только уникальные строки.
+10.3 [Перебрать ArrayList<String> и создать новый список, содержащий только уникальные строки.](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/681d7d29c2bc7b40bcea3130ebf1cb98179be582/HW_13092023/src/main/java/org/example/Hw.java#L602)
         hw.getOnlUniqueStrings();
 
-10.4 Перебрать LinkedList<String> и объединить все строки в одну с использованием разделителя.
+10.4 [Перебрать LinkedList<String> и объединить все строки в одну с использованием разделителя.](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/681d7d29c2bc7b40bcea3130ebf1cb98179be582/HW_13092023/src/main/java/org/example/Hw.java#L621)
         hw.getAllDelimitedString();
 
-10.5 Создать LinkedList с объектами вашего собственного класса и отсортировать их по нескольким критериям.
+10.5 [Создать LinkedList с объектами вашего собственного класса и отсортировать их по нескольким критериям.](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/681d7d29c2bc7b40bcea3130ebf1cb98179be582/HW_13092023/src/main/java/org/example/Hw.java#L649)
         hw.getMyListMitFullySorted();
         
 ## **[HW_18092003](https://github.com/DmitriDjourov/Home_Task_Java_Pro/tree/main/HW_18092023)**
