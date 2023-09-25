@@ -219,16 +219,16 @@ gradeStudents() - метод для автоматической выставл�
         
 ## **[HW_18092003](https://github.com/DmitriDjourov/Home_Task_Java_Pro/tree/main/HW_18092023)**
 
- 1. Переберите все ключи и значения в HashMap и TreeMap и выведите их на экран.
- 2. Переберите только ключи в HashMap и TreeMap и найдите сумму их длин.
- 3. Переберите только значения в HashMap и TreeMap и найдите их среднее значение.
- 4. Переберите HashMap и найдите ключ с максимальным значением.
- 5. Переберите TreeMap и найдите ключ с минимальным значением.
- 6. Переберите HashMap и удалите все элементы с четными значениями.
- 7. Переберите TreeMap и удалите все элементы с ключами, начинающимися с буквы 'A'.
- 8. Переберите TreeMap и найдите наибольший ключ, который меньше или равен заданному ключу.
- 9. Переберите HashMap и найдите ключ с максимальной суммой значений в его вложенных HashMap: HashMap<String, HashMap<String, Integer>> 
-    nestedHashMap = new HashMap<>();
+ 1. [Переберите все ключи и значения в HashMap и TreeMap и выведите их на экран.](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/28f9c103158c0bd3c2b1b70ab9c9878fa4009f44/HW_18092023/src/main/java/org/example/Hw.java#L9)
+ 2. [Переберите только ключи в HashMap и TreeMap и найдите сумму их длин.](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/28f9c103158c0bd3c2b1b70ab9c9878fa4009f44/HW_18092023/src/main/java/org/example/Hw.java#L22)
+ 3. [Переберите только значения в HashMap и TreeMap и найдите их среднее значение.](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/28f9c103158c0bd3c2b1b70ab9c9878fa4009f44/HW_18092023/src/main/java/org/example/Hw.java#L41)
+ 4. [Переберите HashMap и найдите ключ с максимальным значением.](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/28f9c103158c0bd3c2b1b70ab9c9878fa4009f44/HW_18092023/src/main/java/org/example/Hw.java#L63)
+ 5. [Переберите TreeMap и найдите ключ с минимальным значением.](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/28f9c103158c0bd3c2b1b70ab9c9878fa4009f44/HW_18092023/src/main/java/org/example/Hw.java#L78)
+ 6. [Переберите HashMap и удалите все элементы с четными значениями.](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/28f9c103158c0bd3c2b1b70ab9c9878fa4009f44/HW_18092023/src/main/java/org/example/Hw.java#L93)
+ 7. [Переберите TreeMap и удалите все элементы с ключами, начинающимися с буквы 'A'.](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/28f9c103158c0bd3c2b1b70ab9c9878fa4009f44/HW_18092023/src/main/java/org/example/Hw.java#L115)
+ 8. [Переберите TreeMap и найдите наибольший ключ, который меньше или равен заданному ключу.](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/28f9c103158c0bd3c2b1b70ab9c9878fa4009f44/HW_18092023/src/main/java/org/example/Hw.java#L135)
+ 9. [Переберите HashMap и найдите ключ с максимальной суммой значений в его вложенных HashMap: HashMap<String, HashMap<String, Integer>> 
+    nestedHashMap = new HashMap<>();](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/28f9c103158c0bd3c2b1b70ab9c9878fa4009f44/HW_18092023/src/main/java/org/example/Hw.java#L151)
 
 ##  [HW_25092023](https://github.com/DmitriDjourov/Home_Task_Java_Pro/tree/main/HW_25092023)   
 
