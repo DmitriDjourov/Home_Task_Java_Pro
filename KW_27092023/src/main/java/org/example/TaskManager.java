@@ -3,6 +3,7 @@ package org.example;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
+
 import java.util.*;
 
 @Data
@@ -41,6 +42,9 @@ public class TaskManager {
 						       '}';
 		}
 
+
+		//public List<Task> listHighPriorityTasks(): Метод, который возвращает список задач с
+		//высоким приоритетом.
 		public static void listHighPriorityTasks(HashSet<Task> setString) {
 
 				// Выводим список задач с высоким приоритетом
@@ -58,6 +62,8 @@ public class TaskManager {
 				}
 		}
 
+		// public List<Task> listTasksByStatus(String status): Метод, который возвращает список
+		//задач с указанным статусом.
 		public static void getTaskStatus(HashSet<Task> setString, String status) {
 				String strStatus = null;
 				System.out.println("Cписок задач с указанным статусом:" + status);
@@ -74,6 +80,8 @@ public class TaskManager {
 
 		}
 
+		//public Map<String, Integer> countTasksByStatus(): Метод, который возвращает отображение
+		//(Map) со статусами задач и количеством задач в каждом статусе.
 		public static Map<String, Integer> countTasksByStatus(List<Task> tasks) {
 				Map<String, Integer> map = new HashMap<>();
 				System.out.println("Метод, который возвращает отображение(Map) со статусами задач и количеством задач в каждом статусе");
@@ -84,6 +92,8 @@ public class TaskManager {
 				return map;
 		}
 
+		//public void createTask(Task task): Метод, который создает новую задачу и добавляет ее в
+		//список задач.
 		public static void createTask(List<Task> tasks) {
 				HashSet<Task> task = new HashSet<>();
 				System.out.println("Метод, который создает новую задачу и добавляет ее список задач.");
@@ -93,6 +103,7 @@ public class TaskManager {
 				System.out.println(tasks);
 		}
 
+		//public void assignTask(User user, Task task): Метод, который назначает задачу пользователю.
 		public static void assignTask(User user, Task task) {
 				List<Task> userTasks = user.getUserTasks();
 				Map<Date, List<Task>> userTaskList = user.getUserTaskList();
@@ -124,6 +135,7 @@ public class TaskManager {
 				}
 		}
 
+		//public void updateTaskStatus(Task task, String newStatus): Метод, котоый обновляет статус задачи.
 		public static void updateTaskStatus(Task task, String newStatus) {
 				System.out.println("Метод, котоый обновляет статус задачи: с " + task.getTaskStatus() + " на " + newStatus);
 				System.out.println(task);
@@ -131,7 +143,5 @@ public class TaskManager {
 				System.out.println(task);
 		}
 }
-
-
 
 
