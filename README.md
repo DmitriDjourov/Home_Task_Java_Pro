@@ -294,11 +294,11 @@ gradeStudents() - метод для автоматической выставл�
 # **Описание задания.**
 
 ## Уровень сложности 1: Написать игру казино.
--- В игре должна быть реализована возможность играть в рулетку и в автоматы типа 777. Можно делать ставки,
--- менять ставки, смотреть сколько денег осталось итд…..все что захотите.
+1. - В игре должна быть реализована возможность играть в рулетку и в автоматы типа 777. Можно делать ставки,
+2. - менять ставки, смотреть сколько денег осталось итд…..все что захотите.
 ## Реализация версия 0.1
--- [модуль Main.java основной модуль встречаем-выпроваживаем](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/main/HW_28092023/src/main/java/org/example/Main.java)  
--- [модуль Clip.java чисто для создания атмосферы](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/main/HW_28092023/src/main/java/org/example/Clip.java)
--- [модуль AlcoholDrink.java чисто для поддержания атмосферы](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/main/HW_28092023/src/main/java/org/example/AlcoholDrink.java)
--- [модуль PlayRullette.java решение для игры рулетка](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/main/HW_28092023/src/main/java/org/example/PlayRullette.java)
--- [модуль Play777.java решение для игры 777](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/main/HW_28092023/src/main/java/org/example/Play777.java)
+1. - [модуль Main.java основной модуль встречаем-выпроваживаем](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/main/HW_28092023/src/main/java/org/example/Main.java)  
+2. - [модуль Clip.java чисто для создания атмосферы](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/main/HW_28092023/src/main/java/org/example/Clip.java)
+3. - [модуль AlcoholDrink.java чисто для поддержания атмосферы](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/main/HW_28092023/src/main/java/org/example/AlcoholDrink.java)
+4. - [модуль PlayRullette.java решение для игры рулетка](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/main/HW_28092023/src/main/java/org/example/PlayRullette.java)
+5. - [модуль Play777.java решение для игры 777](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/main/HW_28092023/src/main/java/org/example/Play777.java)
