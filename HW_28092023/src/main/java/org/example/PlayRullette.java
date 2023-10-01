@@ -13,10 +13,10 @@ public class PlayRullette {
 				Random random = new Random();
 				String sort_buhla = null;
 
-				System.out.println("Ну крутануть так крутануть! У тя в карманах " + bablo + " баксов . Минимальная ставка ");
-				System.out.println(MIN_STAVKA + ", но не более " + MAX_STAVKA + " баксов. Заряжай ему, Промакашка...а пока...");
+				System.out.println("\nНу крутануть так крутануть! У тя в карманах " + bablo + " баксов .");
+				System.out.println("У нас тут минимальная ставка " + MIN_STAVKA + ", но не более " + MAX_STAVKA + " баксов. Заряжай ему, Промакашка...а пока...");
 
-				System.out.println("Что тебе налить , " + name + ", что бы душа пела... ? ");
+				System.out.println("Что тебе налить , " + name + ", что бы твоя душа пела... ? ");
 				for (AlcoholDrink drink : AlcoholDrink.values()) {
 						System.out.println(drink.ordinal() + 1 + ". " + drink.getName());
 				}
@@ -28,9 +28,9 @@ public class PlayRullette {
 				if (buhlo >= 1 && buhlo <= AlcoholDrink.values().length) {
 						AlcoholDrink tvoyDrink = AlcoholDrink.values()[buhlo - 1];
 						sort_buhla = tvoyDrink.getName();
-						System.out.println("Ооо..." + name + ", " + sort_buhla + " - серьёзный выбор, Промокашка плесни гостю его пойла... кхе... кхе ");
+						System.out.println("Ооо..." + name + ",да ты гурман, " + sort_buhla + " - серьёзный выбор, Промокашка плесни гостю его пойла... кхе... кхе ");
 				} else {
-						System.out.println("Ты чЁ "+ name +" язвенник , аль стукачёк?... ладно не дуйся..ну нет так нет...");
+						System.out.println("Ты чЁ " + name + " язвенник , аль стукачёк?... ладно не дуйся..ну нет так нет...");
 				}
 				while (bablo > 0) {
 						System.out.print("Делайте ваши ставки , Господа (введите сумму) : ");
@@ -59,7 +59,7 @@ public class PlayRullette {
 						System.out.println("Шарик упал на номер: " + rouletteResult);
 						if (rouletteResult == selecteRuldNum) {
 								int win = stavka * 36; // Выигрыш 36:1
-								System.out.println("Ваууу "+ name +"! Круто! Твой номер :" + selecteRuldNum + " сыграл ! И ты таки выиграл аж ");
+								System.out.println("Ваууу " + name + "! Круто! Твой номер :" + selecteRuldNum + " сыграл ! И ты таки выиграл аж ");
 								System.out.println(win + " баксов! Промокашка, почему у гостя стакан пустой где там его " + sort_buhla);
 								bablo += win;
 						} else if ((rouletteResult % 2 == 0 && selecteChetNechet == 2 && rouletteResult != 0) ||
@@ -67,12 +67,12 @@ public class PlayRullette {
 										            && selecteChetNechet == 1)) {
 								int win = stavka * 2;
 								bablo += win;
-								System.out.println("Вай вай"+ name +" ! Твой номер : " + selecteRuldNum + " ,а ещё ты выиграл в чёт-нечет : ");
-								System.out.println(win + " баксов ! А ты "+ name +" фартовый ...кхе ...кхе ...и у тебя в кармане ");
+								System.out.println("Вай вай" + name + " ! Твой номер : " + selecteRuldNum + " ,а ещё ты выиграл в чёт-нечет : ");
+								System.out.println(win + " баксов ! А ты " + name + " фартовый ...кхе ...кхе ...и у тебя в кармане ");
 								System.out.println(bablo + " баксов... это нужно отметить... Промокашка...где там  его " + sort_buhla);
 						} else {
 								bablo -= stavka;
-								System.out.println("Увы "+ name +",ты прощелкал ещё " + stavka + " баксов... а в кармане осталось : " + bablo);
+								System.out.println("Увы " + name + ",ты прощелкал ещё " + stavka + " баксов... а в кармане осталось : " + bablo);
 						}
 				}
 				scanner.close();
