@@ -7,7 +7,9 @@ public enum AlcoholDrink {
 		TEQUILA("Текила"),
 		GIN("Джин"),
 		BEER("Пиво"),
-		KOKTEYL("Прощай разум- встретимся завтра");
+		WINE("Портвейн 777"),
+		CHAMPAGNE("Crystal"),
+		KOKTEYL("Прощай разум - встретимся завтра (Эксклюзив)");
 		private final String sort;
 
 		AlcoholDrink(String sort) {
