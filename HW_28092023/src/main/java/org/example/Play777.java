@@ -4,19 +4,19 @@ import java.util.Random;
 import java.util.Scanner;
 
 public class Play777 {
-		public static double play777(Scanner scanner, double bablo) {
+		public static double play777(Scanner scanner, double bablo, String name) {
 				Random random = new Random();
-				System.out.println("\nДобро пожаловать в игру 777!");
+				System.out.println("\nДобро пожаловать "+ name +" в игру 777!");
 				System.out.println("\nУ тебя в кармане всё еще : " + bablo + " баксов... кхе ..кхе");
 				System.out.println("...правила игры простые, дёргаешь за ручку и если три одинаковых циферки выпало" +
 						                   " то ты молодец, вот тебе полтишок...а если три топора, то и вся стоха твоя , понял?");
-				System.out.println("...вы дёргаете за ручку... раздается отчаянный визг!!!");
+				System.out.println("... "+ name +"  дёргает за ручку... раздается отчаянный визг!!!");
 				System.out.println("...это не ручка...просипел крупье и густо покраснел...");
-				System.out.println("...кхе...кхе...ты это ...ты мне тут людей не калечь ...впервой у нас что-ль" +
+				System.out.println("...кхе...кхе...ты это ... "+ name +"... ты мне тут людей не калечь ...впервой у нас что-ль" +
 						                   " ...ты тогда просто кнопку Enter на клаве жми...вот енту ...да ...вот так ... ");
 
 				while (bablo > 0) {
-						System.out.println("\nДёргай за ручку... фрайерок... (нажми Enter)...");
+						System.out.println("\nДёргай за ручку...  " + name + " ... (нажми Enter)...");
 						scanner.nextLine();
 
 
@@ -29,7 +29,7 @@ public class Play777 {
 
 						// Проверяем выигрыш
 						if (reel1 == 7 && reel2 == 7 && reel3 == 7) {
-								System.out.println(" А ты фартовый ...кхе ...кхе ...твой карман потяжелел на 100 баксов !");
+								System.out.println(" А ты  "+ name +" фартовый ...кхе ...кхе ...твой карман потяжелел на 100 баксов !");
 								bablo += 100;
 						} else if (reel1 != 7 && reel1 == reel2 && reel2 == reel3) {
 								System.out.println("Эхх... были бы <777> a не <" + reel1 + reel1 + reel1 + ">... но ты все равно поднял 50 баксов!");
@@ -37,7 +37,7 @@ public class Play777 {
 						} else {
 								bablo -= 10;
 								if (bablo > 0) {
-										System.out.println("\n Не дрейфь фрайерок ...в следующий раз обязательно повезет ...жми давай ...кхе ...кхе");
+										System.out.println("\n Не дрейфь  "+ name +"  ...в следующий раз обязательно повезет ...жми давай ...кхе ...кхе");
 								}
 						}
 						if (bablo < 1) {

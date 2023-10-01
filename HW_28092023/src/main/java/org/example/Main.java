@@ -12,19 +12,25 @@ public class Main {
 				Clip.openYTV(videoUrl);
 				Scanner scanner = new Scanner(System.in);
 				double bablo;
+
+				System.out.print("Как звать то тебя , мил человек ? (Напиши под каким именем тут тебя будут знать): ");
+				String name = scanner.nextLine();
+				System.out.println(" Ну проходи " + name + " гостем будешь ... ");
+
 				do {
 						System.out.print("...ну чЁ ...бабло принес?...  засвети-ка обществу " +
 								                 "( Напиши сумму с которой ты готов расстаться ): ");
 						bablo = scanner.nextInt();
 
 						if (bablo <= 0) {
-								System.out.println("...ты чЁ..фрайерок... берега попутал? ...а если найду?..ну ка подпрыгни...\n");
+								System.out.println("...ты чЁ.."+ name +"... берега попутал? ...а если найду?..ну ка подпрыгни...\n");
 						}
 				} while (bablo <= 0);
 
 				while (bablo > 0) {
 
-						System.out.println("\n... о...ёпть...да ты сегодня при лаве.. ну с " + bablo + " баксов ты желанный гость ... кхе... кхе...");
+						System.out.println("\n... о...ёпть...да ты сегодня при лаве.. ну с " + bablo +
+								                   " баксов ты желанный гость ... кхе... кхе...");
 						System.out.println("Чё изволитес-с-с ...Рулетка ? ...или 777 ? :\n");
 						System.out.println("1. Крутану рулеточку...");
 						System.out.println("2. Рубанусь на 777...");
@@ -34,22 +40,22 @@ public class Main {
 
 						switch (choice) {
 								case 1:
-										bablo = PlayRullette.getRullettePlay(scanner, bablo);
+										bablo = PlayRullette.getRullettePlay(scanner, bablo, name);
 										break;
 								case 2:
-										bablo = Play777.play777(scanner, bablo);
+										bablo = Play777.play777(scanner, bablo, name);
 										break;
 								case 3:
-										System.out.println("\nОба на ...! А куда енто мы подорвались...вход то рупь... ," +
+										System.out.println("\nОба на ...! А куда енто мы подорвались "+ name +"...вход то рупь... ," +
 												                   " а вот за выход с тебя по любому " + bablo + " баксов... Промокашка" +
 												                   " ...тряхни-ка Буратину... кхе... кхе...\n");
 										return;
 								default:
-										System.out.println("\nТы это... ты давай, выбирай то что по душе... Шлимазал... кхе...кхе...");
+										System.out.println("\nТы это... ты " + name + " давай, выбирай то что по душе... Шлимазал... кхе...кхе...");
 										break;
 						}
 				}
-				System.out.println("\n Оба на ! ...а чё...всё шоль... головка бо-бо... денежки тю-тю... во рту - кака... ну" +
+				System.out.println("\n Оба на ! ...а чё..." + name +" всё шоль... головка бо-бо... денежки тю-тю... во рту - кака... ну" +
 						                   " заходь еще...только бобла побольше бери... Шлимазл... кхе... кхе!");
 		}
 }
