@@ -36,7 +36,7 @@ public class Main {
 										bablo = PlayRullette.getRullettePlay(scanner,bablo);
 										break;
 								case 2:
-										//Play777P.get777Play(scanner);
+										bablo = Play777.play777(scanner,bablo);
 										break;
 								case 3:
 										System.out.println("Оба на ...! А куда енто мы подорвались...вход то рупь... ," +
