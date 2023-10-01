@@ -56,7 +56,7 @@ public class PlayRullette {
 						if (rouletteResult == selecteRuldNum) {
 								int win = stavka * 36; // Выигрыш 36:1
 								System.out.println("Ваууу! Круто! Твой номер :" + selecteRuldNum +
-										                   " сыграл ! И ты таки выиграл аж " + win + " баксов! Промокашка, почему у гостя стакан пустой , где его " + buhlo );
+										                   " сыграл ! И ты таки выиграл аж " + win + " баксов! Промокашка, почему у гостя стакан пустой , где его " + buhlo);
 								bablo += win;
 						} else if ((rouletteResult % 2 == 0 && selecteChetNechet == 2 && rouletteResult != 0) ||
 								           (rouletteResult % 2 != 0
@@ -65,10 +65,10 @@ public class PlayRullette {
 								bablo += win;
 								System.out.println("Вай вай ! Твой номер : " + selecteRuldNum + " ,а ещё ты выиграл в чёт-нечет : " +
 										                   win + " баксов ! А ты фартовый ...кхе ...кхе ...и у тебя в кармане " +
-										                   bablo + " баксов... это нужно отметить... Промокашка... где там  его " + buhlo );
+										                   bablo + " баксов... это нужно отметить... Промокашка... где там  его " + buhlo);
 						} else {
 								bablo -= stavka;
-								System.out.println("Увы, прощелкал ещё "+stavka +" баксов... а в кармане осталось : " + bablo );
+								System.out.println("Увы, прощелкал ещё " + stavka + " баксов... а в кармане осталось : " + bablo);
 						}
 				}
 				scanner.close();

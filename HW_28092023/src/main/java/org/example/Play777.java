@@ -41,7 +41,7 @@ public class Play777 {
 								}
 						}
 						if (bablo < 1) {
-							break;
+								break;
 						} else {
 								System.out.println("У тебя в кармане всё еще : " + bablo + " баксов... кхе ..кхе\n");
 						}
