@@ -15,7 +15,7 @@ public class PlayRullette {
 				System.out.println("Ну крутануть так крутануть! У тя в карманах " + bablo + " баксов . Минимальная ставка "
 						                   + MIN_STAVKA + ", но не более " + MAX_STAVKA + " баксов. Заряжай ему, Промакашка...а пока...");
 
-				System.out.println("Что тебе налить , фрайерок, что бы душа пела...? ");
+				System.out.println("Что тебе налить , фрайерок, что бы душа пела... ? ");
 				for (AlcoholDrink drink : AlcoholDrink.values()) {
 						System.out.println(drink.ordinal() + 1 + ". " + drink.getName());
 				}
@@ -25,7 +25,7 @@ public class PlayRullette {
 						AlcoholDrink tvoyDrink = AlcoholDrink.values()[buhlo - 1];
 						System.out.println("Ооо..." + tvoyDrink.getName() + " серьёзный выбор, Промокашка плесни гостю его пойла... кхе... кхе ");
 				} else {
-						System.out.println("Ты чЁ язвенник , аль стукачёк?... ладно не дуйся..ну нет так нет ....");
+						System.out.println("Ты чЁ язвенник , аль стукачёк?... ладно не дуйся..ну нет так нет...");
 				}
 				while (bablo > 0) {
 						System.out.print("Делайте ваши ставки , Господа (введите сумму) : ");
@@ -64,8 +64,8 @@ public class PlayRullette {
 								int win = stavka * 2;
 								bablo += win;
 								System.out.println("Вай вай ! Твой номер : " + selecteRuldNum + " ,а ещё ты выиграл в чёт-нечет : " +
-										                   win + " баксов ! А ты фартовый ...кхе ...кхе... и у тебя в кармане " +
-										                   bablo + " баксов...это нужно отметить...Промокашка...где там  его " + buhlo );
+										                   win + " баксов ! А ты фартовый ...кхе ...кхе ...и у тебя в кармане " +
+										                   bablo + " баксов... это нужно отметить... Промокашка... где там  его " + buhlo );
 						} else {
 								bablo -= stavka;
 								System.out.println("Увы, прощелкал ещё "+stavka +" баксов... а в кармане осталось : " + bablo );

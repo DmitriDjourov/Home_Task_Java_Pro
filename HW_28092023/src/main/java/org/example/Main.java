@@ -13,7 +13,8 @@ public class Main {
 				Scanner scanner = new Scanner(System.in);
 				double bablo;
 				do {
-						System.out.print("...ну чЁ ...бабло принес?...  засвети-ка обществу : ");
+						System.out.print("...ну чЁ ...бабло принес?...  засвети-ка обществу " +
+								                 "( Напиши сумму с которой ты готов расстаться ): ");
 						bablo = scanner.nextInt();
 
 						if (bablo <= 0) {
