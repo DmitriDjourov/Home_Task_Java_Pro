@@ -6,23 +6,25 @@ public class Main {
 		public static void main(String[] args) {
 				System.out.println("\n ** Заходи не бойся, уходя не плачь ! **");
 				System.out.println("\n ** Жизнь плоха без лоха ! **");
-				System.out.println("\n ** Добро пожаловать в подпольное казино << Наше дело ! >> ** ");
+				System.out.println("\n ** Добро пожаловать в подпольное казино << Наше дело ! >> ** \n");
+
+				//String videoUrl = "https://www.youtube.com/watch?v=LVR7fbkC360&ab_channel=LubaUspenskayaClub";
+				//Clip.openYTV(videoUrl);
 				Scanner scanner = new Scanner(System.in);
 				double bablo;
 				do {
-						System.out.print("...ну чЁ ...деньги принес?... давай сколько есть... суй в эту дырочку :\n");
+						System.out.print("...ну чЁ ...бабло принес?...  засвети-ка обществу : ");
 						bablo = scanner.nextInt();
 
 						if (bablo <= 0) {
-								System.out.println("...ты чё..фрайерок... берега попутал? ...а если найду?..ну ка подпрыгни...");
+								System.out.println("...ты чЁ..фрайерок... берега попутал? ...а если найду?..ну ка подпрыгни...");
 						}
 				} while (bablo <= 0);
 
 				while (bablo > 0) {
-						String videoUrl = "https://www.youtube.com/watch?v=LVR7fbkC360&ab_channel=LubaUspenskayaClub";
-						Clip.openYTV(videoUrl);
-						System.out.println("... о...ёпть...да ты сегодня при лаве.. ну с " + bablo + " баксов ты желанный гость ... кхе... кхе...");
-						System.out.println("...ну чё ...фрайерок...не зассышь? сделаешь ставку? Рулетка ? ...или 777 ? :");
+
+						System.out.println("\n... о...ёпть...да ты сегодня при лаве.. ну с " + bablo + " баксов ты желанный гость ... кхе... кхе...");
+						System.out.println("Чё изволитес-с-с ...Рулетка ? ...или 777 ? :\n");
 						System.out.println("1. Крутану рулеточку...");
 						System.out.println("2. Рубанусь на 777...");
 						System.out.println("3. ...та ну вас нах ... я сваливаю...\n");
@@ -31,20 +33,22 @@ public class Main {
 
 						switch (choice) {
 								case 1:
-										//playInRoulette(scanner);
+										bablo = PlayRullette.getRullettePlay(scanner,bablo);
 										break;
 								case 2:
-										//playIn777(scanner);
+										//Play777P.get777Play(scanner);
 										break;
 								case 3:
-										System.out.println("Оба на ...! А куда енто мы подорвались... по любому... вход рупь, а вот за выход с тебя : " + bablo + " баксов... Промокашка ...тряхни-ка Буратину... кхе... кхе...");
+										System.out.println("Оба на ...! А куда енто мы подорвались...вход то рупь... ," +
+												                   " а вот за выход с тебя по любому " + bablo + " баксов... Промокашка" +
+												                   " ...тряхни-ка Буратину... кхе... кхе...");
 										return;
 								default:
-										System.out.println("Пожалуйста, выберите правильный вариант.");
+										System.out.println("Ты это... ты давай, выбирай то что по душе... Шлимазал... кхе...кхе...");
 										break;
 						}
 				}
-
-				System.out.println("Оба на ...! ...а чё...всё шоль... головка бо-бо... денежки тю-тю... во рту - кака... ну заходь еще... Шлимазл... кхе... кхе!");
+				System.out.println(" Оба на ...! ...а чё...всё шоль... головка бо-бо... денежки тю-тю... во рту - кака... ну" +
+						                   " заходь еще... Шлимазл... кхе... кхе!");
 		}
 }
