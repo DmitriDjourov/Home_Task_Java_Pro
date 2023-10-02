@@ -1,5 +1,7 @@
 package org.example;
 
+import java.util.Arrays;
+import java.util.Comparator;
 import java.util.Random;
 import java.util.Scanner;
 
@@ -17,10 +19,17 @@ public class PlayRullette {
 				System.out.println("У нас тут минимальная ставка " + MIN_STAVKA + ", но не более " + MAX_STAVKA + " баксов. Заряжай ему, Промакашка...а пока...");
 
 				System.out.println("Что тебе налить , " + name + ", что бы твоя душа пела... ? ");
-				for (AlcoholDrink drink : AlcoholDrink.values()) {
+				AlcoholDrink[] drinks = AlcoholDrink.values();
+				Arrays.sort(drinks, new Comparator<AlcoholDrink>() {
+						@Override
+						public int compare(AlcoholDrink o1, AlcoholDrink o2) {
+								return o1.getName().compareTo(o2.getName());
+						}
+				});
+				for (AlcoholDrink drink : drinks) {
 						System.out.println(drink.ordinal() + 1 + ". " + drink.getName());
 				}
-				System.out.print("Всё на халяву... всего лишь выбери номер напитка: ");
+				System.out.print("\nВсё на халяву... всего лишь выбери код напитка: ");
 
 				int buhlo = scanner.nextInt();
 
@@ -28,7 +37,7 @@ public class PlayRullette {
 				if (buhlo >= 1 && buhlo <= AlcoholDrink.values().length) {
 						AlcoholDrink tvoyDrink = AlcoholDrink.values()[buhlo - 1];
 						sort_buhla = tvoyDrink.getName();
-						System.out.println("Ооо..." + name + ",да ты гурман, " + sort_buhla + " - серьёзный выбор, Промокашка плесни гостю его пойла... кхе... кхе ");
+						System.out.println("\nОоо..." + name + ",да ты гурман, " + sort_buhla + " - серьёзный выбор, Промокашка плесни гостю его пойла... кхе... кхе \n");
 				} else {
 						System.out.println("Ты чЁ " + name + " язвенник , аль стукачёк?... ладно не дуйся..ну нет так нет...");
 				}
