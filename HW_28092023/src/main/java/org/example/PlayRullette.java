@@ -8,7 +8,7 @@ import java.util.Scanner;
 public class PlayRullette {
 		public static double getRullettePlay(Scanner scanner, double bablo, String name) {
 				int MIN_STAVKA = 10;
-				int MAX_STAVKA = 1000;
+				int MAX_STAVKA = 100;
 				int MAX_NUM_ROULETTE = 36;
 				int selecteRuldNum = -1;
 				int selecteChetNechet = 3;
@@ -42,8 +42,13 @@ public class PlayRullette {
 						System.out.println("Ты чЁ " + name + " язвенник , аль стукачёк?... ладно не дуйся..ну нет так нет...");
 				}
 				while (bablo > 0) {
-						System.out.print("Делайте ваши ставки , Господа (введите сумму) : ");
+						/*						System.out.print("Делайте ваши ставки , Господа (введите сумму) : ");*/
+						System.out.println("\n" + name + " если хочешь уйти, то нажми <777> . Делайте ваши ставки , Господа (введите сумму) :");
+
 						int stavka = scanner.nextInt();
+						if (stavka == 777) {
+								return bablo;
+						}
 
 						if (stavka < MIN_STAVKA || stavka > MAX_STAVKA || stavka > bablo) {
 								System.out.println("Неверная ставка. Попробуй ещё раз.");

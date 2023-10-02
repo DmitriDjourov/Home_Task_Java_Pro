@@ -1,5 +1,6 @@
 package org.example;
 
+import java.util.Map;
 import java.util.Random;
 import java.util.Scanner;
 
@@ -16,9 +17,14 @@ public class Play777 {
 				System.out.println(" ...ты " + name + " тогда просто кнопку Enter на клаве жми...вот енту ...да ...вот так ... ");
 
 				while (bablo > 0) {
-						System.out.println("\nДёргай за ручку...  " + name + " ... (нажми Enter)...");
-						scanner.nextLine();
+/*						System.out.println("\nДёргай за ручку...  " + name + " ... (нажми Enter)...");
+						scanner.nextLine();*/
+						System.out.println(  name + " если хочешь продолжить игру нажми Enter, Если хочешь уйти нажми <y>");
 
+						String jamp = scanner.nextLine();
+						if (jamp.equals("y")) {
+								return bablo;
+						}
 
 						// Генерируем случайные числа для барабанов
 						int reel1 = random.nextInt(7);
