@@ -13,7 +13,7 @@ public class PlayRullette {
 				int selecteRuldNum = -1;
 				int selecteChetNechet = 3;
 				Random random = new Random();
-				String sort_buhla = null;
+				String sort_buhla = " ";
 
 				System.out.println("\nНу крутануть так крутануть! У тя в карманах " + bablo + " баксов .");
 				System.out.println("У нас тут минимальная ставка " + MIN_STAVKA + ", но не более " + MAX_STAVKA + " баксов. Заряжай ему, Промакашка...а пока...");
