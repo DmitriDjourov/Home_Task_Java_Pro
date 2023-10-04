@@ -17,11 +17,11 @@ public class Play777 {
 				System.out.println(" ...ты " + name + " тогда просто кнопку Enter на клаве жми...вот енту ...да ...вот так ... ");
 
 				while (bablo > 0) {
-						System.out.println(name + " если хочешь продолжить игру нажми Enter, Если хочешь уйти нажми <y>");
+
 						System.out.println("\nДёргай за ручку...  " + name + " ... (дважды нажми Enter)...");
 
 						String jamp = scanner.nextLine();
-						if (jamp.equals("y")) {
+						if (jamp.equals("y") || (jamp.equals("н"))) {
 								return bablo;
 						} else {
 								scanner.nextLine();
@@ -52,6 +52,7 @@ public class Play777 {
 						} else {
 								System.out.println("У тебя в кармане всё еще : " + bablo + " баксов... кхе ..кхе\n");
 						}
+						System.out.println("\n" + name + " если хочешь продолжить игру нажми Enter, Если хочешь уйти нажми <y> она же <н>");
 				}
 				scanner.close();
 				return bablo;
