@@ -6,10 +6,11 @@ import java.util.Random;
 import java.util.Scanner;
 
 public class PlayRullette {
+		private static final int MIN_STAVKA = 10;
+		private static final int MAX_STAVKA = 100;
+		private static final int MAX_NUM_ROULETTE = 36;
 		public static double getRullettePlay(Scanner scanner, double bablo, String name) {
-				int MIN_STAVKA = 10;
-				int MAX_STAVKA = 100;
-				int MAX_NUM_ROULETTE = 36;
+
 				int selecteRuldNum = -1;
 				int selecteChetNechet = 3;
 				Random random = new Random();
