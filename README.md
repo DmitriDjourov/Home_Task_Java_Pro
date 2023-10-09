@@ -317,35 +317,33 @@ gradeStudents() - метод для автоматической выставл�
 9. - [Получение списка слов, содержащих только уникальные символы, из списка строк](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/334871c683a399983fe7928f3f4fab43025fd763/HW_04102023/src/main/java/org/example/Taski.java#L96)
      
 ## **[Past 2](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/main/HW_04102023/src/main/java/org/example/TaskiAdd.java)**
- // Задача 1:  [Фильтрация четных чисел и умножение на 2.](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/966931b374189290d128fabfc6d0bb48c845bc45/HW_04102023/src/main/java/org/example/TaskiAdd.java#L7)
- // Задача 2:  [Удаление дубликатов из списка строк.](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/966931b374189290d128fabfc6d0bb48c845bc45/HW_04102023/src/main/java/org/example/TaskiAdd.java#L16)
- // Задача 3:  [Сортировка списка чисел в порядке убывания и выбор первых трех элементов.](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/966931b374189290d128fabfc6d0bb48c845bc45/HW_04102023/src/main/java/org/example/TaskiAdd.java#L23)
- // Задача 4:  [Фильтрация строк, начинающихся на "A" и преобразование в верхний регистр.](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/966931b374189290d128fabfc6d0bb48c845bc45/HW_04102023/src/main/java/org/example/TaskiAdd.java#L30)
- // Задача 5:  [Пропуск первых двух элементов и вывод оставшихся.](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/966931b374189290d128fabfc6d0bb48c845bc45/HW_04102023/src/main/java/org/example/TaskiAdd.java#L38)
- // Задача 6:  [Фильтрация чисел больше 50 и вывод их квадратов.](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/966931b374189290d128fabfc6d0bb48c845bc45/HW_04102023/src/main/java/org/example/TaskiAdd.java#L44C8-L44C8)
- // Задача 7:  [Оставить только слова, содержащие букву "o" и вывести их в обратном порядке.](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/966931b374189290d128fabfc6d0bb48c845bc45/HW_04102023/src/main/java/org/example/TaskiAdd.java#L51C16-L51C16)
- // Задача 8:  [Фильтрация чисел, оставить только нечетные и вывести их в порядке возрастания.](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/966931b374189290d128fabfc6d0bb48c845bc45/HW_04102023/src/main/java/org/example/TaskiAdd.java#L58)
- // Задача 9:  [Получить среднее значение чисел в списке.](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/966931b374189290d128fabfc6d0bb48c845bc45/HW_04102023/src/main/java/org/example/TaskiAdd.java#L66)
- // Задача 10: [Получить строку, объединяющую элементы списка через запятую.](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/966931b374189290d128fabfc6d0bb48c845bc45/HW_04102023/src/main/java/org/example/TaskiAdd.java#L72)
- // Задача 11: [Получить список квадратов чисел из другого списка.](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/966931b374189290d128fabfc6d0bb48c845bc45/HW_04102023/src/main/java/org/example/TaskiAdd.java#L76)
- // Задача 12: [Получить список букв из списка слов и вывести их в алфавитном порядке.](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/966931b374189290d128fabfc6d0bb48c845bc45/HW_04102023/src/main/java/org/example/TaskiAdd.java#L82)
- // Задача 13: [Получить первые 3 строки из списка и вывести их в обратном порядке.](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/966931b374189290d128fabfc6d0bb48c845bc45/HW_04102023/src/main/java/org/example/TaskiAdd.java#L90)
- // Задача 14: [Пропустить первые 2 элемента и оставить только уникальные.](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/966931b374189290d128fabfc6d0bb48c845bc45/HW_04102023/src/main/java/org/example/TaskiAdd.java#L98)
- // Задача 15: [Фильтрация и сортировка пользователей по возрасту.](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/966931b374189290d128fabfc6d0bb48c845bc45/HW_04102023/src/main/java/org/example/TaskiAdd.java#L106)
+Задача 1. - [Фильтрация четных чисел и умножение на 2.](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/966931b374189290d128fabfc6d0bb48c845bc45/HW_04102023/src/main/java/org/example/TaskiAdd.java#L7)
+Задача 2. - [Удаление дубликатов из списка строк.](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/966931b374189290d128fabfc6d0bb48c845bc45/HW_04102023/src/main/java/org/example/TaskiAdd.java#L16)
+Задача 3. - [Сортировка списка чисел в порядке убывания и выбор первых трех элементов.](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/966931b374189290d128fabfc6d0bb48c845bc45/HW_04102023/src/main/java/org/example/TaskiAdd.java#L23)
+Задача 4. - [Фильтрация строк, начинающихся на "A" и преобразование в верхний регистр.](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/966931b374189290d128fabfc6d0bb48c845bc45/HW_04102023/src/main/java/org/example/TaskiAdd.java#L30)
+Задача 5. - [Пропуск первых двух элементов и вывод оставшихся.](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/966931b374189290d128fabfc6d0bb48c845bc45/HW_04102023/src/main/java/org/example/TaskiAdd.java#L38)
+Задача 6. - [Фильтрация чисел больше 50 и вывод их квадратов.](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/966931b374189290d128fabfc6d0bb48c845bc45/HW_04102023/src/main/java/org/example/TaskiAdd.java#L44C8-L44C8)
+Задача 7. - [Оставить только слова, содержащие букву "o" и вывести их в обратном порядке.](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/966931b374189290d128fabfc6d0bb48c845bc45/HW_04102023/src/main/java/org/example/TaskiAdd.java#L51C16-L51C16)
+Задача 8. - [Фильтрация чисел, оставить только нечетные и вывести их в порядке возрастания.](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/966931b374189290d128fabfc6d0bb48c845bc45/HW_04102023/src/main/java/org/example/TaskiAdd.java#L58)
+Задача 9. - [Получить среднее значение чисел в списке.](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/966931b374189290d128fabfc6d0bb48c845bc45/HW_04102023/src/main/java/org/example/TaskiAdd.java#L66)
+Задача 10. - [Получить строку, объединяющую элементы списка через запятую.](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/966931b374189290d128fabfc6d0bb48c845bc45/HW_04102023/src/main/java/org/example/TaskiAdd.java#L72)
+Задача 11. - [Получить список квадратов чисел из другого списка.](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/966931b374189290d128fabfc6d0bb48c845bc45/HW_04102023/src/main/java/org/example/TaskiAdd.java#L76)
+Задача 12. - [Получить список букв из списка слов и вывести их в алфавитном порядке.](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/966931b374189290d128fabfc6d0bb48c845bc45/HW_04102023/src/main/java/org/example/TaskiAdd.java#L82)
+Задача 13. - [Получить первые 3 строки из списка и вывести их в обратном порядке.](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/966931b374189290d128fabfc6d0bb48c845bc45/HW_04102023/src/main/java/org/example/TaskiAdd.java#L90)
+Задача 14. - [Пропустить первые 2 элемента и оставить только уникальные.](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/966931b374189290d128fabfc6d0bb48c845bc45/HW_04102023/src/main/java/org/example/TaskiAdd.java#L98)
+Задача 15. - [Фильтрация и сортировка пользователей по возрасту.](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/966931b374189290d128fabfc6d0bb48c845bc45/HW_04102023/src/main/java/org/example/TaskiAdd.java#L106)
  
 >> class User {
 >>     private String name;
 >>     private int age;
->>
+>> 
 >>     public User(String name, int age) {
 >>         this.name = name;
 >>         this.age = age;
 >>     }
->>
 >>     public String getName() {
 >>        return name;
 >>    }
->>
 >>     public int getAge() {
 >>         return age;
 >>     }
