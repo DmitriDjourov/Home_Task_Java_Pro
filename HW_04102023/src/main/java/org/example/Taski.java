@@ -102,5 +102,8 @@ public class Taski {
 						                      .toList();
 				System.out.println(strList1);
 				System.out.println(list14);
+
+				System.out.println("===================================================================================");
+				System.out.println("===================================================================================");
 		}
 }
