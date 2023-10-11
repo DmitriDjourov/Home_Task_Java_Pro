@@ -12,42 +12,10 @@ public class Methods {
 //*************************************************************************************
 		public static void m1() {
 				List<String> list = Arrays.asList("Java", "JavaScript", "Python", "Ruby");
-				//	List<String> str = list.stream()
 				long count = list.stream()
 						             .filter(el -> el.contains("Java"))
 						             .count();
-				//.toList();
-				//System.out.println(str);
 				System.out.println(count);
-				//.toList();
-				//System.out.println(str);
-				//+++++++++++++alternativnoe reshenie+++++++++++++++++++++++++++++
-				count = list.stream()
-						        .filter(el -> el.indexOf("Java") >= 0)
-						        .count();
-				System.out.println(count);
-				//==================== pricepit chto to ================
-				List<String> mewList =
-						list.stream().filter(el -> el.contains(("Java"))
-								).map(el -> el + " slon")
-								.collect(Collectors.toList());
-
-				System.out.println(mewList);
-				//==================== pricepit chto to string v int ================
-				List<Integer> intList =
-						list.stream().filter(el -> el.contains(("Java"))
-								).map(el -> el.length())
-								.collect(Collectors.toList());
-
-				System.out.println(intList);
-				//==================== pricepit chto to string v int ================
-				List<Integer> intList1 = list.stream()
-						                         .map(el -> {
-								                         int temp = el.length();
-								                         return temp;
-						                         })
-						                         .collect(Collectors.toList());
-				System.out.println(intList1);
 		}
 
 		//	2.
@@ -185,7 +153,7 @@ public class Methods {
 						                   "* в компаниях, которые находятся в городах, начинающихся на букву 'M'. : " + avgSal);
 		}
 
-//    8.
+		//    8.
 //		/**
 //		 * У нас есть список списков numbers,
 //		 * и мы хотим получить все четные числа из этих списков.
@@ -225,13 +193,13 @@ public class Methods {
 //		List<Integer> list1 = Arrays.asList(1, 2, 3);
 //		List<Integer> list2 = Arrays.asList(4, 5, 6);
 
-		public static void m9(){
+		public static void m9() {
 				List<Integer> list1 = Arrays.asList(1, 2, 3);
 				List<Integer> list2 = Arrays.asList(4, 5, 6);
 
-List<Integer> combinedList = list1.stream()
-		                             .flatMap(i -> list2.stream().map(j -> i + j))
-		                             .toList();
+				List<Integer> combinedList = list1.stream()
+						                             .flatMap(i -> list2.stream().map(j -> i + j))
+						                             .toList();
 				System.out.println(combinedList);
 		}
 }
