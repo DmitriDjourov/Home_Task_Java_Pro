@@ -304,6 +304,8 @@ gradeStudents() - метод для автоматической выставл�
 5. - [модуль Play777.java решение для игры 777](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/main/HW_28092023/src/main/java/org/example/Play777.java)
 
 ## **[HW_04102023](https://github.com/DmitriDjourov/Home_Task_Java_Pro/tree/main/HW_04102023/src/main/java/org/example)**
+
+## **[Past 1](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/main/HW_04102023/src/main/java/org/example/Taski.java)**
 1. - [Фильтрация списка целых чисел на нечетные числа](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/334871c683a399983fe7928f3f4fab43025fd763/HW_04102023/src/main/java/org/example/Taski.java#L7)
 2. - [Преобразование списка строк в список чисел](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/334871c683a399983fe7928f3f4fab43025fd763/HW_04102023/src/main/java/org/example/Taski.java#L16)
 3. - [Суммирование списка чисел](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/334871c683a399983fe7928f3f4fab43025fd763/HW_04102023/src/main/java/org/example/Taski.java#L26)
@@ -313,7 +315,40 @@ gradeStudents() - метод для автоматической выставл�
 7. - [Преобразование списка объектов класса в список их имен, отсортированных по возрасту ------](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/334871c683a399983fe7928f3f4fab43025fd763/HW_04102023/src/main/java/org/example/Taski.java#L72)
 8. - [Нахождение суммы чисел, кратных 3 и 5, из списка чисел -------](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/334871c683a399983fe7928f3f4fab43025fd763/HW_04102023/src/main/java/org/example/Taski.java#L87)
 9. - [Получение списка слов, содержащих только уникальные символы, из списка строк](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/334871c683a399983fe7928f3f4fab43025fd763/HW_04102023/src/main/java/org/example/Taski.java#L96)
-  
+     
+## **[Past 2](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/main/HW_04102023/src/main/java/org/example/TaskiAdd.java)**
+1. - [Фильтрация четных чисел и умножение на 2.](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/966931b374189290d128fabfc6d0bb48c845bc45/HW_04102023/src/main/java/org/example/TaskiAdd.java#L7)
+2. - [Удаление дубликатов из списка строк.](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/966931b374189290d128fabfc6d0bb48c845bc45/HW_04102023/src/main/java/org/example/TaskiAdd.java#L16)
+3. - [Сортировка списка чисел в порядке убывания и выбор первых трех элементов.](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/966931b374189290d128fabfc6d0bb48c845bc45/HW_04102023/src/main/java/org/example/TaskiAdd.java#L23)
+4. - [Фильтрация строк, начинающихся на "A" и преобразование в верхний регистр.](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/966931b374189290d128fabfc6d0bb48c845bc45/HW_04102023/src/main/java/org/example/TaskiAdd.java#L30)
+5. - [Пропуск первых двух элементов и вывод оставшихся.](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/966931b374189290d128fabfc6d0bb48c845bc45/HW_04102023/src/main/java/org/example/TaskiAdd.java#L38)
+6. - [Фильтрация чисел больше 50 и вывод их квадратов.](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/966931b374189290d128fabfc6d0bb48c845bc45/HW_04102023/src/main/java/org/example/TaskiAdd.java#L44C8-L44C8)
+7. - [Оставить только слова, содержащие букву "o" и вывести их в обратном порядке.](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/966931b374189290d128fabfc6d0bb48c845bc45/HW_04102023/src/main/java/org/example/TaskiAdd.java#L51C16-L51C16)
+8. - [Фильтрация чисел, оставить только нечетные и вывести их в порядке возрастания.](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/966931b374189290d128fabfc6d0bb48c845bc45/HW_04102023/src/main/java/org/example/TaskiAdd.java#L58)
+9. - [Получить среднее значение чисел в списке.](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/966931b374189290d128fabfc6d0bb48c845bc45/HW_04102023/src/main/java/org/example/TaskiAdd.java#L66)
+10. - [Получить строку, объединяющую элементы списка через запятую.](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/966931b374189290d128fabfc6d0bb48c845bc45/HW_04102023/src/main/java/org/example/TaskiAdd.java#L72)
+11. - [Получить список квадратов чисел из другого списка.](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/966931b374189290d128fabfc6d0bb48c845bc45/HW_04102023/src/main/java/org/example/TaskiAdd.java#L76)
+12. - [Получить список букв из списка слов и вывести их в алфавитном порядке.](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/966931b374189290d128fabfc6d0bb48c845bc45/HW_04102023/src/main/java/org/example/TaskiAdd.java#L82)
+13. - [Получить первые 3 строки из списка и вывести их в обратном порядке.](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/966931b374189290d128fabfc6d0bb48c845bc45/HW_04102023/src/main/java/org/example/TaskiAdd.java#L90)
+14. - [Пропустить первые 2 элемента и оставить только уникальные.](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/966931b374189290d128fabfc6d0bb48c845bc45/HW_04102023/src/main/java/org/example/TaskiAdd.java#L98)
+15. - [Фильтрация и сортировка пользователей по возрасту.](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/966931b374189290d128fabfc6d0bb48c845bc45/HW_04102023/src/main/java/org/example/TaskiAdd.java#L106)
+ 
+ class User {
+     private String name;
+     private int age;
+ 
+     public User(String name, int age) {
+         this.name = name;
+         this.age = age;
+    }
+     public String getName() {
+        return name;
+    }
+     public int getAge() {
+         return age;
+    }
+ }
+ 
 ## **[HW_09102023](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/main/HW_09102023/src/main/java/org/example/Main.java)**
 
 >>    * List<Integer> numbers = Arrays.asList(1.txt, 2, 3, 4, 5, 6, 7, 8, 9, 10);
