@@ -1,6 +1,7 @@
 package org.example;
 
 import java.util.*;
+import java.util.stream.Collectors;
 
 public class Main {
 		public static void main(String[] args) {
@@ -103,6 +104,82 @@ public class Main {
 				HashSet<Student> interRezultat = GetIntersection.getIntersection(students, students2);
 				for (Student s : interRezultat) {
 						System.out.println(s.getName());
+				}
+		}
+
+		public static class ClassWork {
+				public static void main(String[] args) {
+						/*
+						 //     * List<Integer> numbers = Arrays.asList(1.txt, 2, 3, 4, 5, 6, 7, 8, 9, 10);
+						 //     * -- Отфильтровать нв четные и не четные
+						 //     * -- Просуммировать все числа
+						 //     * -- Получить среднее значение
+						 //     * -- Найти суммы чисел кратных 3 и 5
+						 //     * <p>
+						 //     * List<String> strings = Arrays.asList("1", "2", "3", "4", "5");
+						 //     * -- Преобразовать список строк в список чисел
+						 //     * <p>
+						 //     * <p>
+						 //     * List<String> words = Arrays.asList("apple", "banana", "apricot", "cherry", "kiwi")
+						 //     * -- Отфильтровать строки на те которые начинаются на 'a' и преобразовать из в верхний регистр
+						 //     * -- Получить список слов которые содержат только уникальные символы
+
+		*/
+						List<Integer> numbers = Arrays.asList(1, 2, 3, 4, 5, 6, 7, 8, 9, 10);
+						// Отфильтровать нв четные
+						List<Integer> numEvens = numbers.stream()
+								                         .filter(num -> num%2 == 0)
+								                         .collect(Collectors.toList());
+						System.out.println("Четные числа: " + numEvens);
+
+						//  -- Отфильтровать не четные
+						List<Integer> numOdd = numbers.stream()
+								                       .filter(num -> num%2 != 0)
+								                       .collect(Collectors.toList());
+						System.out.println("Нечетные числа: " + numOdd);
+						//Просуммировать все числа
+						int numSum = numbers.stream()
+								                        .mapToInt(num -> num.intValue())
+								                        .sum();
+						System.out.println("Сумма чисел: " + numSum);
+
+						// Получение среднего значения
+						double avg = numbers.stream()
+								             .mapToInt(num -> num.intValue())
+								             .average()
+								             .orElse(0.0);
+						System.out.println("Среднее значение: " + avg);
+
+						// суммы чисел кратных 3 и 5
+						int sumNum3and5 = numbers.stream()
+								                  .filter(num -> num%3 == 0 || num%5 ==0)
+								                  .mapToInt(num -> num.intValue())
+								                  .sum();
+						System.out.println("Суммы чисел кратных 3 и 5: " + sumNum3and5);
+						System.out.println("================================================");
+
+
+						List<String> strings = Arrays.asList("1", "2", "3", "4", "5");
+						//     * -- Преобразовать список строк в список чисел
+						List<Integer> nums = strings.stream()
+								                     .map(Integer::parseInt)
+								                     .collect(Collectors.toList());
+						System.out.println("Список: " + nums);
+
+						System.out.println("==================================================");
+						List<String> words = Arrays.asList("apple", "banana", "apricot", "cherry", "kiwi");
+						//     * -- Отфильтровать строки на те которые начинаются на 'a' и преобразовать из в верхний регистр
+						List<String> listFiltrA = words.stream()
+								                          .filter(word -> word.startsWith("a"))
+								                          .map(String::toUpperCase)
+								                          .collect(Collectors.toList());
+						System.out.println("Слова, начинающиеся с 'a' в верхнем регистре: " + listFiltrA);
+
+						//     * -- Получить список слов которые содержат только уникальные символы
+						List<String> uniqueCharacterWords = words.stream()
+								                                    .filter(word -> word.chars().distinct().count() == word.length())
+								                                    .collect(Collectors.toList());
+						System.out.println("Слова с уникальными символами: " + uniqueCharacterWords);
 				}
 		}
 }

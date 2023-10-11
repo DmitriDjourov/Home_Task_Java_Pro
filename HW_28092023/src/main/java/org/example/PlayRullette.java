@@ -7,7 +7,7 @@ import java.util.Scanner;
 
 public class PlayRullette {
 		private static final int MIN_STAVKA = 10;
-		private static final int MAX_STAVKA = 100;
+		private static final int MAX_STAVKA = 1000;
 		private static final int MAX_NUM_ROULETTE = 36;
 		public static double getRullettePlay(Scanner scanner, double bablo, String name) {
 
