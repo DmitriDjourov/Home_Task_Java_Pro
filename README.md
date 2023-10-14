@@ -458,4 +458,4 @@ gradeStudents() - метод для автоматической выставл�
 ## **[HW_12102023](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/main/HW_12102023/src/main/java/org/example/Main.java)**
 
 ## 1 уровень сложности: homework2709_23
-1. - Сделать отдельный класс[LibraryManagerStream.java]() там переписать все методы стримами
+1. - Сделать отдельный класс[LibraryManagerStream.java](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/main/HW_12102023/src/main/java/org/example/LibraryManagerStream.java) там переписать все методы стримами
