@@ -5,7 +5,7 @@ import java.util.stream.Collectors;
 
 public class Main {
 		public static void main(String[] args) {
-				String fileName = "D:\\tel_ran\\JavaPro\\lesson\\lesson17\\practice\\names.txt";
+				String fileName = "C:\\Users\\Dmitr\\IdeaProjects\\Home_Task_Java_Pro\\HW_23102023\\names.txt";
 				List<String> listName = stringName(fileName);
 				System.out.println(listName);
 				String substring = "sa";
