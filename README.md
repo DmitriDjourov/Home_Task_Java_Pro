@@ -507,30 +507,30 @@ gradeStudents() - метод для автоматической выставл�
 ## **[HW_23102023](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/main/HW_23102023/src/main/java/org/example/Main.java)**  
 
 **Подсчет общего числа имен в файле
-public long countTotalNames(String fileName)
+[public long countTotalNames(String fileName)](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/77b0a917684522b82263adfc0107029968fc17e8/HW_23102023/src/main/java/org/example/Main.java#L45)
 
 **Нахождение уникальных имен в файле
-public Set<String> uniqueNames(String fileName)
+[public Set<String> uniqueNames(String fileName)](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/77b0a917684522b82263adfc0107029968fc17e8/HW_23102023/src/main/java/org/example/Main.java#L49)
 
 **Подсчет числа имен, содержащих заданную подстроку
-public long countNamesContainingSubstring(String fileName, String substring)
+[public long countNamesContainingSubstring(String fileName, String substring)](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/77b0a917684522b82263adfc0107029968fc17e8/HW_23102023/src/main/java/org/example/Main.java#L54)
 
 **Нахождение имен, длина которых находится в заданном диапазоне
-public List<String> namesWithLengthInRange(String fileName, int minLength, int maxLength)
+[public List<String> namesWithLengthInRange(String fileName, int minLength, int maxLength)](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/77b0a917684522b82263adfc0107029968fc17e8/HW_23102023/src/main/java/org/example/Main.java#L61)
 
 **Вывод первых N имен в алфавитном порядке
-public List<String> firstNNamesAlphabetically(String fileName, int n)
+[public List<String> firstNNamesAlphabetically(String fileName, int n)](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/77b0a917684522b82263adfc0107029968fc17e8/HW_23102023/src/main/java/org/example/Main.java#L68)
 
 **Нахождение пяти самых часто встречающихся имен в файле
-public List<String> topFiveCommonNames(String fileName)
+[public List<String> topFiveCommonNames(String fileName)](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/77b0a917684522b82263adfc0107029968fc17e8/HW_23102023/src/main/java/org/example/Main.java#L76)
 
 **Нахождение имен, которые начинаются на заданную букву и встречаются больше двух раз
-public Set<String> namesStartingWithAndOccurMoreThanTwice(String fileName, char c)
+[public Set<String> namesStartingWithAndOccurMoreThanTwice(String fileName, char c)](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/77b0a917684522b82263adfc0107029968fc17e8/HW_23102023/src/main/java/org/example/Main.java#L87)
 
 **Нахождение двух имен с самой длинной и самой короткой длиной
-public Pair<String, String> longestAndShortestNames(String fileName)
+[public Pair<String, String> longestAndShortestNames(String fileName)](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/77b0a917684522b82263adfc0107029968fc17e8/HW_23102023/src/main/java/org/example/Main.java#L100)
 
-// Для этого метода потребуется класс Pair:
+// Для этого метода потребуется [класс Pair](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/main/HW_23102023/src/main/java/org/example/Paar.java):
 public static class Pair<K, V> {
 private K key;
 private V value;
@@ -559,36 +559,35 @@ private V value;
 
 1 уровень сложности:
 
-Сделать все что на уроке + почитать про алгоритм Луна (лУна а не лунА))) и написать метод который генерирует 
-стрингу
-состоящую из 16 цифр на карте+ месяц и год окончания срока действия + CVV (Например 12341234123412340929888)  по этому
+Сделать все что на уроке + почитать про алгоритм Луна (лУна а не лунА))) и написать [метод который генерирует 
+стрингу состоящую из 16 цифр на карте+ месяц и год окончания срока действия + CVV (Например 12341234123412340929888)  по этому
 алгоритму. Месяц и год должен быть в диапазоне от текущей даты + (4- 5 лет). Те срок карты должен истекать 
-ОТ 2027 ПО 2028Т.
+ОТ 2027 ПО 2028Т.](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/main/HW_23102023/src/main/java/org/example/CardNumberGenerator.java)
 Прошу не пользоваться чатом GPT тк алгоритм простой и требует простого использования циклов.
 Если в Википедии будет не понятно написано то посмотрите видео на ютюб про этот алгоритм - там все просто. 
 
 ## **[HW_25102023](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/main/HW_25102023/src/main/java/org/example/Main.java)**  
 
 *****Задание 1. Сериализация списка студентов
-Описание: Создайте класс Student с полями name
+Описание: Создайте [класс Student](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/main/HW_25102023/src/main/java/org/example/Students.java) с полями name
 (имя студента), age (возраст) и grade (оценка).
 Реализуйте сериализацию и десериализацию списка студентов.
 
 Требования:
 Используйте потоки для обработки данных.
-Реализуйте метод saveStudentsToFile(List<Student> students, String filename), который будет сохранять список студентов в файл.
-Реализуйте метод List<Student> loadStudentsFromFile(String filename), который будет читать студентов из файла.
+Реализуйте [метод saveStudentsToFile(List<Student> students, String filename)](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/77b0a917684522b82263adfc0107029968fc17e8/HW_25102023/src/main/java/org/example/Main.java#L38), который будет сохранять список студентов в файл.
+Реализуйте [метод List<Student> loadStudentsFromFile(String filename)](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/77b0a917684522b82263adfc0107029968fc17e8/HW_25102023/src/main/java/org/example/Main.java#L50), который будет читать студентов из файла.
 
 
 *****Задание 2. Фильтрация студентов по оценке
 Описание: Добавьте функционал, который позволит фильтровать студентов с оценкой выше определенного значения и сохранять их в отдельный файл.
 
 Требования:
-Реализуйте метод filterAndSaveStudentsByGrade(List<Student> students, double gradeThreshold, String filename), который будет сохранять студентов с оценкой выше gradeThreshold в файл.
+Реализуйте [метод filterAndSaveStudentsByGrade(List<Student> students, double gradeThreshold, String filename)](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/77b0a917684522b82263adfc0107029968fc17e8/HW_25102023/src/main/java/org/example/Main.java#L72C29-L72C29), который будет сохранять студентов с оценкой выше gradeThreshold в файл.
 
 
 *****Задание 3. Средний балл студентов
 Описание: Напишите метод, который вычисляет средний балл всех студентов из файла.
 
 Требования:
-Реализуйте метод double calculateAverageGrade(String filename), который возвращает средний балл студентов.
+Реализуйте [метод double calculateAverageGrade(String filename)](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/77b0a917684522b82263adfc0107029968fc17e8/HW_25102023/src/main/java/org/example/Main.java#L96), который возвращает средний балл студентов.
