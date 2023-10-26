@@ -87,11 +87,12 @@ public class Taski {
 				//Задание 8:Нахождение суммы чисел, кратных 3 и 5, из списка чисел
 				System.out.println("================================================================");
 				System.out.println("Задание 8:Нахождение суммы чисел, кратных 3 и 5, из списка чисел");
-				List<Integer> list13 = list.stream()
-						                       .filter(el -> el % 3 == 0 || el % 5 == 0)
-						                       .toList();
+				int sum = list.stream()
+						          .filter(s -> s % 3 == 0 || s % 5 == 0)
+						          .mapToInt(Integer::intValue)
+						          .sum();
 				System.out.println(list);
-				System.out.println(list13);
+				System.out.println(sum);
 
 				//Задание 9:Получение списка слов, содержащих только уникальные символы, из списка строк
 				System.out.println("=================================================================================");
