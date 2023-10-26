@@ -363,8 +363,8 @@ gradeStudents() - метод для автоматической выставл�
 >>    * -- [Преобразовать список строк в список чисел](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/4267898ee7f3bbcb07d2ceb8b29a6a4fc1779809/HW_09102023/src/main/java/org/example/Main.java#L42)
 
 >>    * List<String> words = Arrays.asList("apple", "banana", "apricot", "cherry", "kiwi")
->>    * -- [Отфильтровать строки на те которые начинаются на 'a' и преобразовать из в верхний регистр[(https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/4267898ee7f3bbcb07d2ceb8b29a6a4fc1779809/HW_09102023/src/main/java/org/example/Main.java#L49)
->>    * -- [Получить список слов которые содержат только уникальные символы[(https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/4267898ee7f3bbcb07d2ceb8b29a6a4fc1779809/HW_09102023/src/main/java/org/example/Main.java#L57)
+>>    * -- [Отфильтровать строки на те которые начинаются на 'a' и преобразовать из в верхний регистр](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/4267898ee7f3bbcb07d2ceb8b29a6a4fc1779809/HW_09102023/src/main/java/org/example/Main.java#L49)
+>>    * -- [Получить список слов которые содержат только уникальные символы](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/4267898ee7f3bbcb07d2ceb8b29a6a4fc1779809/HW_09102023/src/main/java/org/example/Main.java#L57)
 
 ## Задание 1: [Фильтрация списка целых чисел на нечетные числа](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/4267898ee7f3bbcb07d2ceb8b29a6a4fc1779809/HW_09102023/src/main/java/org/example/Main.java#L65)
 >> List<Integer> numbers = Arrays.asList(1, 2, 3, 4, 5, 6, 7, 8, 9, 10);
