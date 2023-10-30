@@ -596,42 +596,23 @@ private V value;
 
 ## UNIT_TESTS
 
-    1. -  [Простое сложение двух чисел](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/7f60f5b6d471213f3cb82334686aa5140273d8d7/HW_30102023/src/test/java/org/example/taski/CalculatorTest.java#L12)
-   
-    2. -  [Вычитание](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/7f60f5b6d471213f3cb82334686aa5140273d8d7/HW_30102023/src/test/java/org/example/taski/CalculatorTest.java#L27)
-   
-    3. -  [Умножение](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/7f60f5b6d471213f3cb82334686aa5140273d8d7/HW_30102023/src/test/java/org/example/taski/CalculatorTest.java#L43)
-    
-    4. -  [Деление](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/7f60f5b6d471213f3cb82334686aa5140273d8d7/HW_30102023/src/test/java/org/example/taski/CalculatorTest.java#L55)
-    
-    5. -  [Возведение в степень](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/7f60f5b6d471213f3cb82334686aa5140273d8d7/HW_30102023/src/test/java/org/example/taski/CalculatorTest.java#L82)
-    
-    6. -  [Вычисление факториала](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/7f60f5b6d471213f3cb82334686aa5140273d8d7/HW_30102023/src/test/java/org/example/taski/CalculatorTest.java#L96)
-   
-    7. -  [Определение четности числа](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/7f60f5b6d471213f3cb82334686aa5140273d8d7/HW_30102023/src/test/java/org/example/taski/CalculatorTest.java#L116)
-    
-    8. -  [Поиск максимального числа в массиве](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/7f60f5b6d471213f3cb82334686aa5140273d8d7/HW_30102023/src/test/java/org/example/taski/CalculatorTest.java#L129)
-    
-    9. -  [Определение простого числа](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/7f60f5b6d471213f3cb82334686aa5140273d8d7/HW_30102023/src/test/java/org/example/taski/CalculatorTest.java#L158)
-    
-    10. -  [Перевод числа в строку с указанием системы счисления](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/7f60f5b6d471213f3cb82334686aa5140273d8d7/HW_30102023/src/test/java/org/example/taski/CalculatorTest.java#L179)
-    
-    11. -  [Вычисление корня числа](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/7f60f5b6d471213f3cb82334686aa5140273d8d7/HW_30102023/src/test/java/org/example/taski/CalculatorTest.java#L196)
-    
-    12. -  [Инвертирование строки](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/7f60f5b6d471213f3cb82334686aa5140273d8d7/HW_30102023/src/test/java/org/example/taski/CalculatorTest.java#L219)
-    
-    13. -  [Проверка, является ли строка палиндромом](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/7f60f5b6d471213f3cb82334686aa5140273d8d7/HW_30102023/src/test/java/org/example/taski/CalculatorTest.java#L244)
-    
-    14. -  [Вычисление НОД двух чисел](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/7f60f5b6d471213f3cb82334686aa5140273d8d7/HW_30102023/src/test/java/org/example/taski/CalculatorTest.java#L258)
-    
-    15. -  [Перемножение элементов массива](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/7f60f5b6d471213f3cb82334686aa5140273d8d7/HW_30102023/src/test/java/org/example/taski/CalculatorTest.java#L277)
-    
-    16. -  [Определение длины самого длинного слова в строке](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/7f60f5b6d471213f3cb82334686aa5140273d8d7/HW_30102023/src/test/java/org/example/taski/CalculatorTest.java#L305)
-    
-    17. -  [Конвертация температуры из Цельсия в Фаренгейт](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/7f60f5b6d471213f3cb82334686aa5140273d8d7/HW_30102023/src/test/java/org/example/taski/CalculatorTest.java#L325)
-    
-    18. -  [Проверка на вхождение подстроки в строку (без использования стандартных методов Java)](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/7f60f5b6d471213f3cb82334686aa5140273d8d7/HW_30102023/src/test/java/org/example/taski/CalculatorTest.java#L340)
-    
-    19. -  [Сумма цифр числа](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/7f60f5b6d471213f3cb82334686aa5140273d8d7/HW_30102023/src/test/java/org/example/taski/CalculatorTest.java#L373)
-    
-    20. -  [Проверка, является ли год високосным](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/7f60f5b6d471213f3cb82334686aa5140273d8d7/HW_30102023/src/test/java/org/example/taski/CalculatorTest.java#L392)
+1. -  [Простое сложение двух чисел](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/7f60f5b6d471213f3cb82334686aa5140273d8d7/HW_30102023/src/test/java/org/example/taski/CalculatorTest.java#L12)
+2. -  [Вычитание](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/7f60f5b6d471213f3cb82334686aa5140273d8d7/HW_30102023/src/test/java/org/example/taski/CalculatorTest.java#L27)
+3. -  [Умножение](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/7f60f5b6d471213f3cb82334686aa5140273d8d7/HW_30102023/src/test/java/org/example/taski/CalculatorTest.java#L43)
+4. -  [Деление](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/7f60f5b6d471213f3cb82334686aa5140273d8d7/HW_30102023/src/test/java/org/example/taski/CalculatorTest.java#L55)
+5. -  [Возведение в степень](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/7f60f5b6d471213f3cb82334686aa5140273d8d7/HW_30102023/src/test/java/org/example/taski/CalculatorTest.java#L82)
+6. -  [Вычисление факториала](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/7f60f5b6d471213f3cb82334686aa5140273d8d7/HW_30102023/src/test/java/org/example/taski/CalculatorTest.java#L96)
+7. -  [Определение четности числа](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/7f60f5b6d471213f3cb82334686aa5140273d8d7/HW_30102023/src/test/java/org/example/taski/CalculatorTest.java#L116)
+8. -  [Поиск максимального числа в массиве](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/7f60f5b6d471213f3cb82334686aa5140273d8d7/HW_30102023/src/test/java/org/example/taski/CalculatorTest.java#L129)
+9. -  [Определение простого числа](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/7f60f5b6d471213f3cb82334686aa5140273d8d7/HW_30102023/src/test/java/org/example/taski/CalculatorTest.java#L158)
+10. -  [Перевод числа в строку с указанием системы счисления](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/7f60f5b6d471213f3cb82334686aa5140273d8d7/HW_30102023/src/test/java/org/example/taski/CalculatorTest.java#L179)
+11. -  [Вычисление корня числа](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/7f60f5b6d471213f3cb82334686aa5140273d8d7/HW_30102023/src/test/java/org/example/taski/CalculatorTest.java#L196)
+12. -  [Инвертирование строки](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/7f60f5b6d471213f3cb82334686aa5140273d8d7/HW_30102023/src/test/java/org/example/taski/CalculatorTest.java#L219)
+13. -  [Проверка, является ли строка палиндромом](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/7f60f5b6d471213f3cb82334686aa5140273d8d7/HW_30102023/src/test/java/org/example/taski/CalculatorTest.java#L244)
+14. -  [Вычисление НОД двух чисел](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/7f60f5b6d471213f3cb82334686aa5140273d8d7/HW_30102023/src/test/java/org/example/taski/CalculatorTest.java#L258)
+15. -  [Перемножение элементов массива](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/7f60f5b6d471213f3cb82334686aa5140273d8d7/HW_30102023/src/test/java/org/example/taski/CalculatorTest.java#L277)
+16. -  [Определение длины самого длинного слова в строке](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/7f60f5b6d471213f3cb82334686aa5140273d8d7/HW_30102023/src/test/java/org/example/taski/CalculatorTest.java#L305)
+17. -  [Конвертация температуры из Цельсия в Фаренгейт](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/7f60f5b6d471213f3cb82334686aa5140273d8d7/HW_30102023/src/test/java/org/example/taski/CalculatorTest.java#L325)
+18. -  [Проверка на вхождение подстроки в строку (без использования стандартных методов Java)](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/7f60f5b6d471213f3cb82334686aa5140273d8d7/HW_30102023/src/test/java/org/example/taski/CalculatorTest.java#L340)
+19. -  [Сумма цифр числа](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/7f60f5b6d471213f3cb82334686aa5140273d8d7/HW_30102023/src/test/java/org/example/taski/CalculatorTest.java#L373)
+20. -  [Проверка, является ли год високосным](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/7f60f5b6d471213f3cb82334686aa5140273d8d7/HW_30102023/src/test/java/org/example/taski/CalculatorTest.java#L392)
