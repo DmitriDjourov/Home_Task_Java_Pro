@@ -617,23 +617,23 @@ private V value;
 19. -  [Сумма цифр числа](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/7f60f5b6d471213f3cb82334686aa5140273d8d7/HW_30102023/src/test/java/org/example/taski/CalculatorTest.java#L373)
 20. -  [Проверка, является ли год високосным](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/7f60f5b6d471213f3cb82334686aa5140273d8d7/HW_30102023/src/test/java/org/example/taski/CalculatorTest.java#L392)
 
-## **[HW_01112023]()**
+## **[HW_01112023](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/main/HW_01112023/src/test/java/org/example/LibraryTest.java)**
 
 ## 1. Написать тесты для методов класса Library.java
 
 ## Создаем:
-1. -  [Создаем библиотеку]()
-2. -  [Создаем авторов]()
-3. -  [Создаем книги]()
+1. -  [Создаем библиотеку](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/67c788daca0302235bafdee5b05e55fc885dfb03/HW_01112023/src/test/java/org/example/LibraryTest.java#L8)
+2. -  [Создаем авторов](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/67c788daca0302235bafdee5b05e55fc885dfb03/HW_01112023/src/test/java/org/example/LibraryTest.java#L11)
+3. -  [Создаем книги](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/67c788daca0302235bafdee5b05e55fc885dfb03/HW_01112023/src/test/java/org/example/LibraryTest.java#L15)
 
 ## Тестируем:
-4. -  [Очищаем библиотеку и заполняем заново перед каждым запуском теста]()
-5. -  [Добавляем книгу в библиотеку]()
-6. -  [Удаляем книгу из библиотеки]()
-7. -  [Вытаскиваем по автору]()
-8. -  [Вытаскиваем сколько всего авторов]()
-9. -  [Вытаскиваем по ISBN]()
-10. -  [Вытаскиваем по Title где в названии есть "Java"]()
-11. -  [Добавляем копию книги в библиотеку]()
-12. -  [Выдаем книжку из библиотеки]()
-13. -  [Возврат книги в библиотеку]()
+4. -  [Очищаем библиотеку и заполняем заново перед каждым запуском теста](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/67c788daca0302235bafdee5b05e55fc885dfb03/HW_01112023/src/test/java/org/example/LibraryTest.java#L20)
+5. -  [Добавляем книгу в библиотеку](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/67c788daca0302235bafdee5b05e55fc885dfb03/HW_01112023/src/test/java/org/example/LibraryTest.java#L29C11-L29C11)
+6. -  [Удаляем книгу из библиотеки](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/67c788daca0302235bafdee5b05e55fc885dfb03/HW_01112023/src/test/java/org/example/LibraryTest.java#L45)
+7. -  [Вытаскиваем по автору](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/67c788daca0302235bafdee5b05e55fc885dfb03/HW_01112023/src/test/java/org/example/LibraryTest.java#L59)
+8. -  [Вытаскиваем сколько всего авторов](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/67c788daca0302235bafdee5b05e55fc885dfb03/HW_01112023/src/test/java/org/example/LibraryTest.java#L66)
+9. -  [Вытаскиваем по ISBN](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/67c788daca0302235bafdee5b05e55fc885dfb03/HW_01112023/src/test/java/org/example/LibraryTest.java#L73)
+10. -  [Вытаскиваем по Title где в названии есть "Java"](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/67c788daca0302235bafdee5b05e55fc885dfb03/HW_01112023/src/test/java/org/example/LibraryTest.java#L79)
+11. -  [Добавляем копию книги в библиотеку](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/67c788daca0302235bafdee5b05e55fc885dfb03/HW_01112023/src/test/java/org/example/LibraryTest.java#L86)
+12. -  [Выдаем книжку из библиотеки](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/67c788daca0302235bafdee5b05e55fc885dfb03/HW_01112023/src/test/java/org/example/LibraryTest.java#L100)
+13. -  [Возврат книги в библиотеку](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/67c788daca0302235bafdee5b05e55fc885dfb03/HW_01112023/src/test/java/org/example/LibraryTest.java#L120)
