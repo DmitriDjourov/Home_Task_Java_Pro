@@ -3,9 +3,9 @@ package org.example;
 import java.util.Objects;
 
 public class Book {
-    private String title;
-    private Author author;
-    private String isbn;
+    private final String title;
+    private final Author author;
+    private final String isbn;
     private int copies;
 
     public Book(String title, Author author, String isbn, int copies) {

@@ -3,8 +3,8 @@ package org.example;
 import java.util.Objects;
 
 public class Author {
-    private String name;
-    private int birthYear;
+    private final String name;
+    private final int birthYear;
 
     public Author(String name, int birthYear) {
         if (name == null) {
