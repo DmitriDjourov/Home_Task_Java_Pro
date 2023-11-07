@@ -24,7 +24,7 @@ class OrderTest {
 		void testProcessPayment() {
 // моким интерфейс
 				ExternalPaymentApi paymentApi = Mockito.mock((ExternalPaymentApi.class));
-// создаем сущность
+// обернули пайментапи в паймент сервис
 				PaymentService paymentService = new PaymentService(paymentApi);
 // создаем сущность
 				Order order = new Order("1", 100.0, false);
