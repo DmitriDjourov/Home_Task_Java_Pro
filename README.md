@@ -637,3 +637,10 @@ private V value;
 11. -  [Добавляем копию книги в библиотеку](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/67c788daca0302235bafdee5b05e55fc885dfb03/HW_01112023/src/test/java/org/example/LibraryTest.java#L86)
 12. -  [Выдаем книжку из библиотеки](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/67c788daca0302235bafdee5b05e55fc885dfb03/HW_01112023/src/test/java/org/example/LibraryTest.java#L100)
 13. -  [Возврат книги в библиотеку](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/67c788daca0302235bafdee5b05e55fc885dfb03/HW_01112023/src/test/java/org/example/LibraryTest.java#L120)
+
+## **[HW_06112023](https://github.com/DmitriDjourov/Home_Task_Java_Pro/tree/main/HW_06112023/src/test/java/taski)**
+
+## Написать тесты для классов :
+1. [Order](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/main/HW_06112023/src/test/java/taski/OrderTest.java), 
+2. [Product](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/main/HW_06112023/src/test/java/taski/ProductTest.java), 
+3. [User](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/main/HW_06112023/src/test/java/taski/UserTest.java).
