@@ -637,30 +637,3 @@ private V value;
 11. -  [Добавляем копию книги в библиотеку](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/67c788daca0302235bafdee5b05e55fc885dfb03/HW_01112023/src/test/java/org/example/LibraryTest.java#L86)
 12. -  [Выдаем книжку из библиотеки](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/67c788daca0302235bafdee5b05e55fc885dfb03/HW_01112023/src/test/java/org/example/LibraryTest.java#L100)
 13. -  [Возврат книги в библиотеку](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/67c788daca0302235bafdee5b05e55fc885dfb03/HW_01112023/src/test/java/org/example/LibraryTest.java#L120)
-
-## **[HW_08112023]()**
-
-##  Написать методы и тесты для методов:
-
-1. [Написать метод для задачи (если стоит решетка, то букву убираем, сколько решеток столько и букв убираем, после 
-этого сравниваем равенство с эталонной строкой]():
-*
-s1 = aaa // эталон
-s2 = ##aaa###aaa
-s1 = adga // эталон
-s2 = aa#dg#gs##a
-*
- - Написать тесты к методу.
-
-2. [Написать метод (Каждая буква это шаг в направлении вверх низ право лево. Проверка вернется ли в исходную ячейку):]()
-*
-s = "LDLDRURU"
-*
- - Написать тесты к методу.
-
-3. [Написать метод (Сколько букв из эталонного слова встречается в стринге):]()
-*
-j = "ahT"
-s = "uyayhhTyRthh"
-*
- - Написать тесты к методу.
