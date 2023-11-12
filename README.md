@@ -671,3 +671,40 @@ j = "ahT"
 s = "uyayhhTyRthh"
 *
 - [Написать тесты к методу](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/main/HW_08112023/src/test/java/org/example/MethodsTest.java).
+
+## **[HW_11112023](https://github.com/DmitriDjourov/Home_Task_Java_Pro/tree/main/HW_11112023)**
+
+## [Написать и протестировать методы которые парсят файл 1.txt и...](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/main/HW_11112023/1.txt)
+
+1. - [Метод для создания мапы, где ключ - первая буква имени, а значение - количество таких имен](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/89cd7ed8a82e865a6fc9e6a6a0f04b9fcc0f7f69/HW_11112023/src/main/java/org/example/Main.java#L75)
+   - [Тест метода](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/89cd7ed8a82e865a6fc9e6a6a0f04b9fcc0f7f69/HW_11112023/src/test/java/org/example/MainTest.java#L38)
+   
+2. - [Метод для нахождения самой часто встречающейся первой буквы в именах](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/89cd7ed8a82e865a6fc9e6a6a0f04b9fcc0f7f69/HW_11112023/src/main/java/org/example/Main.java#L87)
+   - [Тест метода](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/89cd7ed8a82e865a6fc9e6a6a0f04b9fcc0f7f69/HW_11112023/src/test/java/org/example/MainTest.java#L64)
+   
+3. - [Метод для создания списка номеров телефонов, где каждый номер преобразован в числовой формат](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/89cd7ed8a82e865a6fc9e6a6a0f04b9fcc0f7f69/HW_11112023/src/main/java/org/example/Main.java#L102)
+   - [Тест метода](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/89cd7ed8a82e865a6fc9e6a6a0f04b9fcc0f7f69/HW_11112023/src/test/java/org/example/MainTest.java#L90)
+   
+4. - [Метод для группировки имен по длине имени](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/89cd7ed8a82e865a6fc9e6a6a0f04b9fcc0f7f69/HW_11112023/src/main/java/org/example/Main.java#L116)
+   - [Тест метода](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/89cd7ed8a82e865a6fc9e6a6a0f04b9fcc0f7f69/HW_11112023/src/test/java/org/example/MainTest.java#L111)
+   
+5. - [Метод для поиска уникальных фамилий](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/89cd7ed8a82e865a6fc9e6a6a0f04b9fcc0f7f69/HW_11112023/src/main/java/org/example/Main.java#L125)
+   - [Тест метода](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/89cd7ed8a82e865a6fc9e6a6a0f04b9fcc0f7f69/HW_11112023/src/test/java/org/example/MainTest.java#L138)
+   
+6. - [Метод для создания списка имен, отсортированного в обратном алфавитном порядке](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/89cd7ed8a82e865a6fc9e6a6a0f04b9fcc0f7f69/HW_11112023/src/main/java/org/example/Main.java#L139)
+   - [Тест метода](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/89cd7ed8a82e865a6fc9e6a6a0f04b9fcc0f7f69/HW_11112023/src/test/java/org/example/MainTest.java#L175)
+   
+7. - [Метод для преобразования данных в формат имя=номер](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/89cd7ed8a82e865a6fc9e6a6a0f04b9fcc0f7f69/HW_11112023/src/main/java/org/example/Main.java#L149)
+   - [Тест метода](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/89cd7ed8a82e865a6fc9e6a6a0f04b9fcc0f7f69/HW_11112023/src/test/java/org/example/MainTest.java#L207)
+   
+8. - [Метод для расчета средней длины имени](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/89cd7ed8a82e865a6fc9e6a6a0f04b9fcc0f7f69/HW_11112023/src/main/java/org/example/Main.java#L174)
+   - [Тест метода](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/89cd7ed8a82e865a6fc9e6a6a0f04b9fcc0f7f69/HW_11112023/src/test/java/org/example/MainTest.java#L255)
+     
+9. - [Метод для создания карты, где ключ - номер телефона, а значение - имя](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/89cd7ed8a82e865a6fc9e6a6a0f04b9fcc0f7f69/HW_11112023/src/main/java/org/example/Main.java#L185)
+   - [Тест метода](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/89cd7ed8a82e865a6fc9e6a6a0f04b9fcc0f7f69/HW_11112023/src/test/java/org/example/MainTest.java#L276)
+     
+10. - [Метод для поиска контактов с максимальной и минимальной длиной имени](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/89cd7ed8a82e865a6fc9e6a6a0f04b9fcc0f7f69/HW_11112023/src/main/java/org/example/Main.java#L198)
+    - [Тест метода](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/89cd7ed8a82e865a6fc9e6a6a0f04b9fcc0f7f69/HW_11112023/src/test/java/org/example/MainTest.java#L310)
+
+ - и....[протестировать все](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/main/HW_11112023/src/test/java/org/example/MainTest.java)
+ - и....почитайте про регулярные выражения
