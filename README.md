@@ -712,39 +712,39 @@ s = "uyayhhTyRthh"
 
 ## **[HW_20112023](https://github.com/DmitriDjourov/Home_Task_Java_Pro/tree/main/HW_20112023)**
 
-Описание системы:
+## Описание системы:
 Система должна имитировать процесс обработки заказов в онлайн-магазине, где заказы поступают, обрабатываются и отправляются клиентам. Приложение должно использовать несколько потоков для различных этапов обработки заказа.
 
 Классы и их функциональность:
-[Заказ (Order)]()
-Поля: идентификатор заказа, статус, список товаров.
-Методы: добавление товара, изменение статуса заказа.
+1. [Заказ (Order)](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/main/HW_20112023/src/main/java/org/example/Order.java)
+ - Поля: идентификатор заказа, статус, список товаров.
+ - Методы: добавление товара, изменение статуса заказа.
 
-[Обработчик Заказов (OrderProcessor)]()
-Поля: очередь заказов (Queue).
-Методы: добавление заказа в очередь (синхронизированный), извлечение заказа из очереди (синхронизированный).
+2. [Обработчик Заказов (OrderProcessor)](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/main/HW_20112023/src/main/java/org/example/OrderProcessor.java)
+ - Поля: очередь заказов (Queue).
+ - Методы: добавление заказа в очередь (синхронизированный), извлечение заказа из очереди (синхронизированный).
 
-[Система Управления Заказами (OrderManagementSystem)]()
-Поля: список обработчиков заказов, volatile флаг работы системы.
-Методы: запуск и остановка системы, распределение заказов по обработчикам.
-[Логистический Центр (LogisticsCenter)]()
-Поля: список готовых к отправке заказов (Queue).
-Методы: добавление готового заказа (синхронизированный), отправка заказов.
+3. [Система Управления Заказами (OrderManagementSystem)](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/main/HW_20112023/src/main/java/org/example/OrderManagementSystem.java)
+ - Поля: список обработчиков заказов, volatile флаг работы системы.
+ - Методы: запуск и остановка системы, распределение заказов по обработчикам.
+3.1 [Логистический Центр (LogisticsCenter)](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/396946891af16cf3afadf2d16b2e299fc3240654/HW_20112023/src/main/java/org/example/OrderManagementSystem.java#L62)
+ - Поля: список готовых к отправке заказов (Queue).
+ - Методы: добавление готового заказа (синхронизированный), отправка заказов.
 
-[Клиент (Client)]()
-Поля: идентификатор клиента, список заказов.
-Методы: создание нового заказа, отслеживание статуса заказа.
+4. [Клиент (Client)](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/main/HW_20112023/src/main/java/org/example/Client.java)
+ - Поля: идентификатор клиента, список заказов.
+ - Методы: создание нового заказа, отслеживание статуса заказа.
 
-Потоки и их задачи:
-[Поток-генератор заказов (OrderGeneratorThread)]()
+## Потоки и их задачи:
+[Поток-генератор заказов (OrderGeneratorThread)](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/396946891af16cf3afadf2d16b2e299fc3240654/HW_20112023/src/main/java/org/example/OrderManagementSystem.java#L23C24-L23C24)
 Создает новые заказы и добавляет их в систему управления заказами.
-[Поток обработки заказов (OrderProcessingThread)]()
+[Поток обработки заказов (OrderProcessingThread)](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/396946891af16cf3afadf2d16b2e299fc3240654/HW_20112023/src/main/java/org/example/OrderManagementSystem.java#L47C31-L47C31)
 Извлекает заказы из очереди обработчика заказов и обновляет их статус.
-[Поток логистики (LogisticsThread)]()
+[Поток логистики (LogisticsThread)](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/396946891af16cf3afadf2d16b2e299fc3240654/HW_20112023/src/main/java/org/example/OrderManagementSystem.java#L40)
 Переносит обработанные заказы в логистический центр для отправки.
-[Поток мониторинга (MonitoringThread)]()
+[Поток мониторинга (MonitoringThread)](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/396946891af16cf3afadf2d16b2e299fc3240654/HW_20112023/src/main/java/org/example/OrderManagementSystem.java#L76)
 Отслеживает общее состояние системы и выводит информацию о статусах заказов.
 
-Требования к реализации:
+## Требования к реализации:
 Использовать synchronized блоки или методы для синхронизации доступа к общим ресурсам (например, очереди заказов).
 Использовать volatile переменные для контроля состояния системы (например, для флага работы системы управления заказами).
