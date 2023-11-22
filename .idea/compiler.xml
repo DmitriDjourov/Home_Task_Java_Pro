@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="HW_16102023" />
+        <module name="HW_30102023" />
+        <module name="HW_06112023" />
+        <module name="HW_25092023" />
+        <module name="HW_01112023" />
+        <module name="HW_04102023" />
+        <module name="Helper" />
+        <module name="HW_11112023" />
+        <module name="HW_23102023" />
+        <module name="HW_09102023" />
+        <module name="HW_12102023" />
+        <module name="HW_28092023" />
+        <module name="HW_25102023" />
+        <module name="HW_08112023" />
+        <module name="HW_11102023" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="HW_0112023" target="20" />
+      <module name="HW_20112023" target="20" />
+      <module name="HW_27092023" target="20" />
+      <module name="HWS_10112023" target="20" />
+      <module name="untitled1" target="20" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

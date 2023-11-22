@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/HW_25092023/pom.xml" />
+        <option value="$PROJECT_DIR$/KW_27092023/pom.xml" />
+        <option value="$PROJECT_DIR$/HW_28092023/pom.xml" />
+        <option value="$PROJECT_DIR$/HW_04102023/pom.xml" />
+        <option value="$PROJECT_DIR$/HW_09102023/pom.xml" />
+        <option value="$PROJECT_DIR$/untitled1/pom.xml" />
+        <option value="$PROJECT_DIR$/HW_11102023/pom.xml" />
+        <option value="$PROJECT_DIR$/Helper/pom.xml" />
+        <option value="$PROJECT_DIR$/HW_12102023/pom.xml" />
+        <option value="$PROJECT_DIR$/HW_16102023/pom.xml" />
+        <option value="$PROJECT_DIR$/HW_23102023/pom.xml" />
+        <option value="$PROJECT_DIR$/HW_25102023/pom.xml" />
+        <option value="$PROJECT_DIR$/HW_30102023/pom.xml" />
+        <option value="$PROJECT_DIR$/HW_0112023/pom.xml" />
+        <option value="$PROJECT_DIR$/HW_01112023/pom.xml" />
+        <option value="$PROJECT_DIR$/HW_06112023/pom.xml" />
+        <option value="$PROJECT_DIR$/HW_08112023/pom.xml" />
+        <option value="$PROJECT_DIR$/HWS_10112023/pom.xml" />
+        <option value="$PROJECT_DIR$/HW_11112023/pom.xml" />
+        <option value="$PROJECT_DIR$/HW_20112023/pom.xml" />
+      </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/HWS_10112023/pom.xml" />
+        <option value="$PROJECT_DIR$/HW_0112023/pom.xml" />
+        <option value="$PROJECT_DIR$/HW_20112023/pom.xml" />
+        <option value="$PROJECT_DIR$/untitled1/pom.xml" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" project-jdk-name="20 (2)" project-jdk-type="JavaSDK" />
+</project>
