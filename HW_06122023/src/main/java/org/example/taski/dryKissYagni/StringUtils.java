@@ -19,3 +19,17 @@ public class StringUtils {
                 .collect(Collectors.joining());
     }
 }
+/**
+ * рефакторинг.
+ *  код использует регулярное выражение \\b(?!\\s)\\w, чтобы сопоставить все слова, кроме пробелов,
+ *  и применяет String::toUpperCase для преобразования каждого символа в верхний регистр.
+ */
+//public class NewStringUtils {
+//
+//    public static String toUpperCase(String input) {
+//        if (input == null) {
+//            throw new IllegalArgumentException("Input string cannot be null");
+//        }
+//        return input.replaceAll("\\b(?!\\s)\\w", String::toUpperCase);
+//    }
+//}
