@@ -748,3 +748,39 @@ s = "uyayhhTyRthh"
 ## Требования к реализации:
 Использовать synchronized блоки или методы для синхронизации доступа к общим ресурсам (например, очереди заказов).
 Использовать volatile переменные для контроля состояния системы (например, для флага работы системы управления заказами).
+
+## **[HW_29112023](https://github.com/DmitriDjourov/Home_Task_Java_Pro/tree/main/HW_29112023)**
+
+* - Создать класс для генерации игроков (50 шт)
+* - Создать класс для генерации листа Position(10 раз)
+* - Все игроки должны сыграть "каждый с каждым"
+* - Если победа то +1 если поражение то -1 ничья 0,5
+* - Составить таблицу игроков и вывести на экран тройку лидеров
+* - Если у тройки лидеров одинаковые очки - они переигрывают ТО кол-во раз пока кол-во очков не станет разным.
+*
+* - CDL для генерации игроков.
+
+## **[HW_06122023](https://github.com/DmitriDjourov/Home_Task_Java_Pro/tree/main/HW_06122023/src/main/java/org/example/taski/dryKissYagni)**
+
+* - [CA.java](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/main/HW_06122023/src/main/java/org/example/taski/dryKissYagni/CA.java)
+* - [Calc.java](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/main/HW_06122023/src/main/java/org/example/taski/dryKissYagni/Calc.java)
+* - [Calculator.java](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/main/HW_06122023/src/main/java/org/example/taski/dryKissYagni/Calculator.java)
+* - [CircleQ.java](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/main/HW_06122023/src/main/java/org/example/taski/dryKissYagni/CircleQ.java)
+* - [D1.java](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/main/HW_06122023/src/main/java/org/example/taski/dryKissYagni/D1.java)
+* - [DA.java](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/main/HW_06122023/src/main/java/org/example/taski/dryKissYagni/DA.java)
+* - [DAta.java](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/main/HW_06122023/src/main/java/org/example/taski/dryKissYagni/DAta.java)
+* - [DateUtils.java](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/main/HW_06122023/src/main/java/org/example/taski/dryKissYagni/DateUtils.java)
+* - [EmailValidator.java](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/main/HW_06122023/src/main/java/org/example/taski/dryKissYagni/EmailValidator.java)
+* - [Employee.java](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/main/HW_06122023/src/main/java/org/example/taski/dryKissYagni/Employee.java)
+* - [Main.java](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/main/HW_06122023/src/main/java/org/example/taski/dryKissYagni/Main.java)
+* - [MathUtils.java](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/main/HW_06122023/src/main/java/org/example/taski/dryKissYagni/MathUtils.java)
+* - [Order.java](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/main/HW_06122023/src/main/java/org/example/taski/dryKissYagni/Order.java)
+* - [Product.java](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/main/HW_06122023/src/main/java/org/example/taski/dryKissYagni/Product.java)
+* - [ProductService.java](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/main/HW_06122023/src/main/java/org/example/taski/dryKissYagni/ProductService.java)
+* - [SU.java](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/main/HW_06122023/src/main/java/org/example/taski/dryKissYagni/SU.java)
+* - [SUT.java](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/main/HW_06122023/src/main/java/org/example/taski/dryKissYagni/SUT.java)
+* - [Shape.java](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/main/HW_06122023/src/main/java/org/example/taski/dryKissYagni/Shape.java)
+* - [ShoppingCart.java](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/main/HW_06122023/src/main/java/org/example/taski/dryKissYagni/ShoppingCart.java)
+* - [StringUtils.java](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/main/HW_06122023/src/main/java/org/example/taski/dryKissYagni/StringUtils.java)
+* - [UserValidation.java](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/main/HW_06122023/src/main/java/org/example/taski/dryKissYagni/UserValidation.java)
+* - [ValidationUtils.java](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/main/HW_06122023/src/main/java/org/example/taski/dryKissYagni/ValidationUtils.java)
