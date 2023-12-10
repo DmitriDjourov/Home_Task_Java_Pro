@@ -761,7 +761,7 @@ s = "uyayhhTyRthh"
 * - CDL для генерации игроков.
 
 ## **[HW_06122023](https://github.com/DmitriDjourov/Home_Task_Java_Pro/tree/main/HW_06122023/src/main/java/org/example/taski/dryKissYagni)**
-
+## Refactoring
 * - [CA.java](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/main/HW_06122023/src/main/java/org/example/taski/dryKissYagni/CA.java)
 * - [Calc.java](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/main/HW_06122023/src/main/java/org/example/taski/dryKissYagni/Calc.java)
 * - [Calculator.java](https://github.com/DmitriDjourov/Home_Task_Java_Pro/blob/main/HW_06122023/src/main/java/org/example/taski/dryKissYagni/Calculator.java)
